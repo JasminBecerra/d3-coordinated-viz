@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
-<Schema name="ChicagoSocEconKML" id="ChicagoSocEconKML">
+<Schema name="Untitled" id="Untitled">
 	<SimpleField name="Community Area Number" type="int"></SimpleField>
 	<SimpleField name="Community" type="string"></SimpleField>
 	<SimpleField name="Percent of Housing Crowded" type="float"></SimpleField>
@@ -14,11 +14,11 @@
 	<SimpleField name="latitude" type="float"></SimpleField>
 	<SimpleField name="longitude" type="float"></SimpleField>
 </Schema>
-<Folder><name>ChicagoSocEconKML</name>
+<Folder><name>Untitled</name>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">1</SimpleData>
-		<SimpleData name="Community">Rogers Park</SimpleData>
+		<SimpleData name="Community">ROGERS PARK</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">7.7</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">23.6</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">8.7</SimpleData>
@@ -26,15 +26,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">27.5</SimpleData>
 		<SimpleData name="Per Capita Income">23939</SimpleData>
 		<SimpleData name="Hardship Index">39</SimpleData>
-		<SimpleData name="latitude">37.3117523</SimpleData>
-		<SimpleData name="longitude">-78.7711105</SimpleData>
+		<SimpleData name="latitude">42.0106</SimpleData>
+		<SimpleData name="longitude">-87.6696</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-78.7711105,37.3117523</coordinates></Point>
+      <Point><coordinates>-87.6696,42.0106</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">2</SimpleData>
-		<SimpleData name="Community">West Ridge</SimpleData>
+		<SimpleData name="Community">WEST RIDGE</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">7.8</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">17.2</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">8.8</SimpleData>
@@ -42,15 +42,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">38.5</SimpleData>
 		<SimpleData name="Per Capita Income">23040</SimpleData>
 		<SimpleData name="Hardship Index">46</SimpleData>
-		<SimpleData name="latitude">37.4701309</SimpleData>
-		<SimpleData name="longitude">-78.2809067</SimpleData>
+		<SimpleData name="latitude">42.0006</SimpleData>
+		<SimpleData name="longitude">-87.6926</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-78.2809067,37.4701309</coordinates></Point>
+      <Point><coordinates>-87.6926,42.0006</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">3</SimpleData>
-		<SimpleData name="Community">Uptown</SimpleData>
+		<SimpleData name="Community">UPTOWN</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">3.8</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">24</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">8.9</SimpleData>
@@ -64,9 +64,9 @@
       <Point><coordinates>-87.6533,41.9665</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">4</SimpleData>
-		<SimpleData name="Community">Lincoln Square</SimpleData>
+		<SimpleData name="Community">LINCOLN SQUARE</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">3.4</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">10.9</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">8.2</SimpleData>
@@ -80,9 +80,9 @@
       <Point><coordinates>-87.6891403,41.9757004</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">5</SimpleData>
-		<SimpleData name="Community">North Center</SimpleData>
+		<SimpleData name="Community">NORTH CENTER</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">0.3</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">7.5</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">5.2</SimpleData>
@@ -96,9 +96,9 @@
       <Point><coordinates>-87.6814194,41.9541092</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">6</SimpleData>
-		<SimpleData name="Community">Lake View</SimpleData>
+		<SimpleData name="Community">LAKE VIEW</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">1.1</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">11.4</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">4.7</SimpleData>
@@ -112,9 +112,9 @@
       <Point><coordinates>-87.6584,41.9436</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">7</SimpleData>
-		<SimpleData name="Community">Lincoln Park</SimpleData>
+		<SimpleData name="Community">LINCOLN PARK</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">0.8</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">12.3</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">5.1</SimpleData>
@@ -128,9 +128,9 @@
       <Point><coordinates>-87.6513,41.9214</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">8</SimpleData>
-		<SimpleData name="Community">Near North Side</SimpleData>
+		<SimpleData name="Community">NEAR NORTH SIDE</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">1.9</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">12.9</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">7</SimpleData>
@@ -144,9 +144,9 @@
       <Point><coordinates>-87.6343307,41.9001503</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">9</SimpleData>
-		<SimpleData name="Community">Edison Park</SimpleData>
+		<SimpleData name="Community">EDISON PARK</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">1.1</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">3.3</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">6.5</SimpleData>
@@ -160,9 +160,9 @@
       <Point><coordinates>-87.8139877,42.0079002</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">10</SimpleData>
-		<SimpleData name="Community">Norwood Park</SimpleData>
+		<SimpleData name="Community">NORWOOD PARK</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">2</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">5.4</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">9</SimpleData>
@@ -176,9 +176,9 @@
       <Point><coordinates>-87.7930069,41.9868088</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">11</SimpleData>
-		<SimpleData name="Community">Jefferson Park</SimpleData>
+		<SimpleData name="Community">JEFFERSON PARK</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">2.7</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">8.6</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">12.4</SimpleData>
@@ -186,15 +186,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">35.5</SimpleData>
 		<SimpleData name="Per Capita Income">27751</SimpleData>
 		<SimpleData name="Hardship Index">25</SimpleData>
-		<SimpleData name="latitude">39.377121</SimpleData>
-		<SimpleData name="longitude">-105.8007431</SimpleData>
+		<SimpleData name="latitude">41.9825</SimpleData>
+		<SimpleData name="longitude">-87.7704</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-105.8007431,39.377121</coordinates></Point>
+      <Point><coordinates>-87.7704,41.9825</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">12</SimpleData>
-		<SimpleData name="Community">Forest Glen</SimpleData>
+		<SimpleData name="Community">FOREST GLEN</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">1.1</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">7.5</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">6.8</SimpleData>
@@ -203,14 +203,14 @@
 		<SimpleData name="Per Capita Income">44164</SimpleData>
 		<SimpleData name="Hardship Index">11</SimpleData>
 		<SimpleData name="latitude">41.9830017</SimpleData>
-		<SimpleData name="longitude">-87.75</SimpleData>
+		<SimpleData name="longitude">-87.7514</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-87.75,41.9830017</coordinates></Point>
+      <Point><coordinates>-87.7514,41.9830017</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">13</SimpleData>
-		<SimpleData name="Community">North Park</SimpleData>
+		<SimpleData name="Community">NORTH PARK</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">3.9</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">13.2</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">9.9</SimpleData>
@@ -218,15 +218,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">39</SimpleData>
 		<SimpleData name="Per Capita Income">26576</SimpleData>
 		<SimpleData name="Hardship Index">33</SimpleData>
-		<SimpleData name="latitude">39.4976273</SimpleData>
-		<SimpleData name="longitude">-80.2548904</SimpleData>
+		<SimpleData name="latitude">41.9843</SimpleData>
+		<SimpleData name="longitude">-87.726</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-80.2548904,39.4976273</coordinates></Point>
+      <Point><coordinates>-87.726,41.9843</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">14</SimpleData>
-		<SimpleData name="Community">Albany Park</SimpleData>
+		<SimpleData name="Community">ALBANY PARK</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">11.3</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">19.2</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">10</SimpleData>
@@ -240,9 +240,9 @@
       <Point><coordinates>-87.723381,41.9682884</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">15</SimpleData>
-		<SimpleData name="Community">Portage Park</SimpleData>
+		<SimpleData name="Community">PORTAGE PARK</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">4.1</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">11.6</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">12.6</SimpleData>
@@ -256,9 +256,9 @@
       <Point><coordinates>-87.7645721,41.95504</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">16</SimpleData>
-		<SimpleData name="Community">Irving Park</SimpleData>
+		<SimpleData name="Community">IRVING PARK</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">6.3</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">13.1</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">10</SimpleData>
@@ -266,15 +266,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">31.6</SimpleData>
 		<SimpleData name="Per Capita Income">27249</SimpleData>
 		<SimpleData name="Hardship Index">34</SimpleData>
-		<SimpleData name="latitude">36.1044617</SimpleData>
-		<SimpleData name="longitude">-79.5447006</SimpleData>
+		<SimpleData name="latitude">41.953</SimpleData>
+		<SimpleData name="longitude">-87.7212</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-79.5447006,36.1044617</coordinates></Point>
+      <Point><coordinates>-87.7212,41.953</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">17</SimpleData>
-		<SimpleData name="Community">Dunning</SimpleData>
+		<SimpleData name="Community">DUNNING</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">5.2</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">10.6</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">10</SimpleData>
@@ -282,15 +282,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">33.6</SimpleData>
 		<SimpleData name="Per Capita Income">26282</SimpleData>
 		<SimpleData name="Hardship Index">28</SimpleData>
-		<SimpleData name="latitude">38.4957008</SimpleData>
-		<SimpleData name="longitude">-80.1459732</SimpleData>
+		<SimpleData name="latitude">41.9472</SimpleData>
+		<SimpleData name="longitude">-87.8065</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-80.1459732,38.4957008</coordinates></Point>
+      <Point><coordinates>-87.8065,41.9472</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">18</SimpleData>
-		<SimpleData name="Community">Montclaire</SimpleData>
+		<SimpleData name="Community">MONTCLAIRE</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">8.1</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">15.3</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">13.8</SimpleData>
@@ -304,9 +304,9 @@
       <Point><coordinates>-87.7982,41.9294</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">19</SimpleData>
-		<SimpleData name="Community">Belmont Cragin</SimpleData>
+		<SimpleData name="Community">BELMONT CRAGIN</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">10.8</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">18.7</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">14.6</SimpleData>
@@ -314,15 +314,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">37.3</SimpleData>
 		<SimpleData name="Per Capita Income">15461</SimpleData>
 		<SimpleData name="Hardship Index">70</SimpleData>
-		<SimpleData name="latitude">39.8454018</SimpleData>
-		<SimpleData name="longitude">-79.8995056</SimpleData>
+		<SimpleData name="latitude">41.9264</SimpleData>
+		<SimpleData name="longitude">-87.7659</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-79.8995056,39.8454018</coordinates></Point>
+      <Point><coordinates>-87.7659,41.9264</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">20</SimpleData>
-		<SimpleData name="Community">Hermosa</SimpleData>
+		<SimpleData name="Community">HERMOSA</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">6.9</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">20.5</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">13.1</SimpleData>
@@ -330,15 +330,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">36.4</SimpleData>
 		<SimpleData name="Per Capita Income">15089</SimpleData>
 		<SimpleData name="Hardship Index">71</SimpleData>
-		<SimpleData name="latitude">40.2115936</SimpleData>
-		<SimpleData name="longitude">-79.7651138</SimpleData>
+		<SimpleData name="latitude">41.9215</SimpleData>
+		<SimpleData name="longitude">-87.7344</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-79.7651138,40.2115936</coordinates></Point>
+      <Point><coordinates>-87.7344,41.9215</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">21</SimpleData>
-		<SimpleData name="Community">Avondale</SimpleData>
+		<SimpleData name="Community">AVONDALE</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">6</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">15.3</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">9.2</SimpleData>
@@ -346,15 +346,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">31</SimpleData>
 		<SimpleData name="Per Capita Income">20039</SimpleData>
 		<SimpleData name="Hardship Index">42</SimpleData>
-		<SimpleData name="latitude">38.9659233</SimpleData>
-		<SimpleData name="longitude">-77.0089798</SimpleData>
+		<SimpleData name="latitude">41.9415</SimpleData>
+		<SimpleData name="longitude">-87.7025</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-77.0089798,38.9659233</coordinates></Point>
+      <Point><coordinates>-87.7025,41.9415</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">22</SimpleData>
-		<SimpleData name="Community">Logan Square</SimpleData>
+		<SimpleData name="Community">LOGAN SQUARE</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">3.2</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">16.8</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">8.2</SimpleData>
@@ -362,15 +362,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">26.2</SimpleData>
 		<SimpleData name="Per Capita Income">31908</SimpleData>
 		<SimpleData name="Hardship Index">23</SimpleData>
-		<SimpleData name="latitude">32.5110016</SimpleData>
-		<SimpleData name="longitude">-84.9288712</SimpleData>
+		<SimpleData name="latitude">41.9231</SimpleData>
+		<SimpleData name="longitude">-87.7093</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-84.9288712,32.5110016</coordinates></Point>
+      <Point><coordinates>-87.7093,41.9231</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">23</SimpleData>
-		<SimpleData name="Community">Humboldt park</SimpleData>
+		<SimpleData name="Community">HUMBOLDT PARK</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">14.8</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">33.9</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">17.3</SimpleData>
@@ -384,9 +384,9 @@
       <Point><coordinates>-87.7023849,41.9054375</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">24</SimpleData>
-		<SimpleData name="Community">West Town</SimpleData>
+		<SimpleData name="Community">WEST TOWN</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">2.3</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">14.7</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">6.6</SimpleData>
@@ -394,15 +394,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">21.7</SimpleData>
 		<SimpleData name="Per Capita Income">43198</SimpleData>
 		<SimpleData name="Hardship Index">10</SimpleData>
-		<SimpleData name="latitude">39.8311195</SimpleData>
-		<SimpleData name="longitude">-82.9250793</SimpleData>
+		<SimpleData name="latitude">41.8936</SimpleData>
+		<SimpleData name="longitude">-87.6722</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-82.9250793,39.8311195</coordinates></Point>
+      <Point><coordinates>-87.6722,41.8936</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">25</SimpleData>
-		<SimpleData name="Community">Austin</SimpleData>
+		<SimpleData name="Community">AUSTIN</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">6.3</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">28.6</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">22.6</SimpleData>
@@ -410,15 +410,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">37.9</SimpleData>
 		<SimpleData name="Per Capita Income">15957</SimpleData>
 		<SimpleData name="Hardship Index">73</SimpleData>
-		<SimpleData name="latitude">30.2675896</SimpleData>
-		<SimpleData name="longitude">-97.7429886</SimpleData>
+		<SimpleData name="latitude">41.893</SimpleData>
+		<SimpleData name="longitude">-87.7616</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-97.7429886,30.2675896</coordinates></Point>
+      <Point><coordinates>-87.7616,41.893</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">26</SimpleData>
-		<SimpleData name="Community">West Garfield Park</SimpleData>
+		<SimpleData name="Community">WEST GARFIELD PARK</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">9.4</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">41.7</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">25.8</SimpleData>
@@ -432,9 +432,9 @@
       <Point><coordinates>-87.7292,41.8806</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">27</SimpleData>
-		<SimpleData name="Community">East Garfield Park</SimpleData>
+		<SimpleData name="Community">EAST GARFIELD PARK</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">8.2</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">42.4</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">19.6</SimpleData>
@@ -448,9 +448,9 @@
       <Point><coordinates>-87.7025,41.8819</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">28</SimpleData>
-		<SimpleData name="Community">Near West Side</SimpleData>
+		<SimpleData name="Community">NEAR WEST SIDE</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">3.8</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">20.6</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">10.7</SimpleData>
@@ -464,9 +464,9 @@
       <Point><coordinates>-87.663,41.8811</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">29</SimpleData>
-		<SimpleData name="Community">North Lawndale</SimpleData>
+		<SimpleData name="Community">NORTH LAWNDALE</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">7.4</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">43.1</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">21.2</SimpleData>
@@ -474,15 +474,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">42.7</SimpleData>
 		<SimpleData name="Per Capita Income">12034</SimpleData>
 		<SimpleData name="Hardship Index">87</SimpleData>
-		<SimpleData name="latitude">33.8986206</SimpleData>
-		<SimpleData name="longitude">-118.3538513</SimpleData>
+		<SimpleData name="latitude">41.8585</SimpleData>
+		<SimpleData name="longitude">-87.7139</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-118.3538513,33.8986206</coordinates></Point>
+      <Point><coordinates>-87.7139,41.8585</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">30</SimpleData>
-		<SimpleData name="Community">South Lawndale</SimpleData>
+		<SimpleData name="Community">LITTLE VILLAGE</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">15.2</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">30.7</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">15.8</SimpleData>
@@ -490,15 +490,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">33.8</SimpleData>
 		<SimpleData name="Per Capita Income">10402</SimpleData>
 		<SimpleData name="Hardship Index">96</SimpleData>
-		<SimpleData name="latitude">33.8986206</SimpleData>
-		<SimpleData name="longitude">-118.3538513</SimpleData>
+		<SimpleData name="latitude">41.8458</SimpleData>
+		<SimpleData name="longitude">-87.7058</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-118.3538513,33.8986206</coordinates></Point>
+      <Point><coordinates>-87.7058,41.8458</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">31</SimpleData>
-		<SimpleData name="Community">Lower West Side</SimpleData>
+		<SimpleData name="Community">LOWER WEST SIDE</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">9.6</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">25.8</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">15.8</SimpleData>
@@ -512,9 +512,9 @@
       <Point><coordinates>-87.6695,41.8489</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">32</SimpleData>
-		<SimpleData name="Community">Loop</SimpleData>
+		<SimpleData name="Community">LOOP</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">1.5</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">14.7</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">5.7</SimpleData>
@@ -528,9 +528,9 @@
       <Point><coordinates>-87.6251,41.8786</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">33</SimpleData>
-		<SimpleData name="Community">Near South Side</SimpleData>
+		<SimpleData name="Community">NEAR SOUTH SIDE</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">1.3</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">13.8</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">4.9</SimpleData>
@@ -544,9 +544,9 @@
       <Point><coordinates>-87.6201,41.8565</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">34</SimpleData>
-		<SimpleData name="Community">Armour Square</SimpleData>
+		<SimpleData name="Community">ARMOUR SQUARE</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">5.7</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">40.1</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">16.7</SimpleData>
@@ -560,9 +560,9 @@
       <Point><coordinates>-87.6318893,41.8345795</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">35</SimpleData>
-		<SimpleData name="Community">Douglas</SimpleData>
+		<SimpleData name="Community">DOUGLAS</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">1.8</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">29.6</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">18.2</SimpleData>
@@ -570,15 +570,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">30.7</SimpleData>
 		<SimpleData name="Per Capita Income">23791</SimpleData>
 		<SimpleData name="Hardship Index">47</SimpleData>
-		<SimpleData name="latitude">10.2567377</SimpleData>
-		<SimpleData name="longitude">-74.2584839</SimpleData>
+		<SimpleData name="latitude">41.8347</SimpleData>
+		<SimpleData name="longitude">-87.618</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-74.2584839,10.2567377</coordinates></Point>
+      <Point><coordinates>-87.618,41.8347</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">36</SimpleData>
-		<SimpleData name="Community">Oakland</SimpleData>
+		<SimpleData name="Community">OAKLAND</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">1.3</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">39.7</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">28.7</SimpleData>
@@ -586,15 +586,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">40.4</SimpleData>
 		<SimpleData name="Per Capita Income">19252</SimpleData>
 		<SimpleData name="Hardship Index">78</SimpleData>
-		<SimpleData name="latitude">37.8050804</SimpleData>
-		<SimpleData name="longitude">-122.2730713</SimpleData>
+		<SimpleData name="latitude">41.8227</SimpleData>
+		<SimpleData name="longitude">-87.6014</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-122.2730713,37.8050804</coordinates></Point>
+      <Point><coordinates>-87.6014,41.8227</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">37</SimpleData>
-		<SimpleData name="Community">Fuller Park</SimpleData>
+		<SimpleData name="Community">FULLER PARK</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">3.2</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">51.2</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">33.9</SimpleData>
@@ -608,9 +608,9 @@
       <Point><coordinates>-87.634552,41.8113747</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">38</SimpleData>
-		<SimpleData name="Community">Grand Boulevard</SimpleData>
+		<SimpleData name="Community">GRAND BOULEVARD</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">3.3</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">29.3</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">24.3</SimpleData>
@@ -624,9 +624,9 @@
       <Point><coordinates>-87.6214218,41.8093109</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">39</SimpleData>
-		<SimpleData name="Community">Kenwood</SimpleData>
+		<SimpleData name="Community">KENWOOD</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">2.4</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">21.7</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">15.7</SimpleData>
@@ -640,9 +640,9 @@
       <Point><coordinates>-87.5933,41.8095</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">40</SimpleData>
-		<SimpleData name="Community">Washington Park</SimpleData>
+		<SimpleData name="Community">WASHINGTON PARK</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">5.6</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">42.1</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">28.6</SimpleData>
@@ -650,15 +650,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">42.8</SimpleData>
 		<SimpleData name="Per Capita Income">13785</SimpleData>
 		<SimpleData name="Hardship Index">88</SimpleData>
-		<SimpleData name="latitude">48.675209</SimpleData>
-		<SimpleData name="longitude">-122.2662125</SimpleData>
+		<SimpleData name="latitude">41.7932</SimpleData>
+		<SimpleData name="longitude">-87.6176</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-122.2662125,48.675209</coordinates></Point>
+      <Point><coordinates>-87.6176,41.7932</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">41</SimpleData>
-		<SimpleData name="Community">Hyde Park</SimpleData>
+		<SimpleData name="Community">HYDE PARK</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">1.5</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">18.4</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">8.4</SimpleData>
@@ -666,15 +666,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">26.2</SimpleData>
 		<SimpleData name="Per Capita Income">39056</SimpleData>
 		<SimpleData name="Hardship Index">14</SimpleData>
-		<SimpleData name="latitude">32.3481903</SimpleData>
-		<SimpleData name="longitude">-90.3118744</SimpleData>
+		<SimpleData name="latitude">41.7943</SimpleData>
+		<SimpleData name="longitude">-87.5907</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-90.3118744,32.3481903</coordinates></Point>
+      <Point><coordinates>-87.5907,41.7943</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">42</SimpleData>
-		<SimpleData name="Community">Woodlawn</SimpleData>
+		<SimpleData name="Community">WOODLAWN</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">2.9</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">30.7</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">23.4</SimpleData>
@@ -688,9 +688,9 @@
       <Point><coordinates>-87.5939,41.7802</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">43</SimpleData>
-		<SimpleData name="Community">South Shore</SimpleData>
+		<SimpleData name="Community">SOUTH SHORE</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">2.8</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">31.1</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">20</SimpleData>
@@ -698,15 +698,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">35.7</SimpleData>
 		<SimpleData name="Per Capita Income">19398</SimpleData>
 		<SimpleData name="Hardship Index">55</SimpleData>
-		<SimpleData name="latitude">39.9653893</SimpleData>
-		<SimpleData name="longitude">-75.8791275</SimpleData>
+		<SimpleData name="latitude">41.76</SimpleData>
+		<SimpleData name="longitude">-87.5742</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-75.8791275,39.9653893</coordinates></Point>
+      <Point><coordinates>-87.5742,41.76</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">44</SimpleData>
-		<SimpleData name="Community">Chatham</SimpleData>
+		<SimpleData name="Community">CHATHAM</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">3.3</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">27.8</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">24</SimpleData>
@@ -720,9 +720,9 @@
       <Point><coordinates>-87.6139,41.741</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">45</SimpleData>
-		<SimpleData name="Community">Avalon Park</SimpleData>
+		<SimpleData name="Community">AVALON PARK</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">1.4</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">17.2</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">21.1</SimpleData>
@@ -736,9 +736,9 @@
       <Point><coordinates>-87.5949631,41.7420654</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">46</SimpleData>
-		<SimpleData name="Community">South Chicago</SimpleData>
+		<SimpleData name="Community">SOUTH CHICAGO</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">4.7</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">29.8</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">19.7</SimpleData>
@@ -752,9 +752,9 @@
       <Point><coordinates>-87.5362473,41.7226105</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">47</SimpleData>
-		<SimpleData name="Community">Burnside</SimpleData>
+		<SimpleData name="Community">BURNSIDE</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">6.8</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">33</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">18.6</SimpleData>
@@ -762,15 +762,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">42.7</SimpleData>
 		<SimpleData name="Per Capita Income">12515</SimpleData>
 		<SimpleData name="Hardship Index">79</SimpleData>
-		<SimpleData name="latitude">41.6960526</SimpleData>
-		<SimpleData name="longitude">-74.0536194</SimpleData>
+		<SimpleData name="latitude">41.7281</SimpleData>
+		<SimpleData name="longitude">-87.5964</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-74.0536194,41.6960526</coordinates></Point>
+      <Point><coordinates>-87.5964,41.7281</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">48</SimpleData>
-		<SimpleData name="Community">Calumet Heights</SimpleData>
+		<SimpleData name="Community">CALUMET HEIGHTS</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">2.1</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">11.5</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">20</SimpleData>
@@ -784,9 +784,9 @@
       <Point><coordinates>-87.5774231,41.7333603</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">49</SimpleData>
-		<SimpleData name="Community">Roseland</SimpleData>
+		<SimpleData name="Community">ROSELAND</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">2.5</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">19.8</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">20.3</SimpleData>
@@ -794,15 +794,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">41.2</SimpleData>
 		<SimpleData name="Per Capita Income">17949</SimpleData>
 		<SimpleData name="Hardship Index">52</SimpleData>
-		<SimpleData name="latitude">40.7933998</SimpleData>
-		<SimpleData name="longitude">-76.2451401</SimpleData>
+		<SimpleData name="latitude">41.7113</SimpleData>
+		<SimpleData name="longitude">-87.6236</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-76.2451401,40.7933998</coordinates></Point>
+      <Point><coordinates>-87.6236,41.7113</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">50</SimpleData>
-		<SimpleData name="Community">Pullman</SimpleData>
+		<SimpleData name="Community">PULLMAN</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">1.5</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">21.6</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">22.8</SimpleData>
@@ -810,15 +810,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">38.6</SimpleData>
 		<SimpleData name="Per Capita Income">20588</SimpleData>
 		<SimpleData name="Hardship Index">51</SimpleData>
-		<SimpleData name="latitude">38.7473907</SimpleData>
-		<SimpleData name="longitude">-76.8490448</SimpleData>
+		<SimpleData name="latitude">41.6895</SimpleData>
+		<SimpleData name="longitude">-87.6061</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-76.8490448,38.7473907</coordinates></Point>
+      <Point><coordinates>-87.6061,41.6895</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">51</SimpleData>
-		<SimpleData name="Community">South Deering</SimpleData>
+		<SimpleData name="Community">SOUTH DEERING</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">4</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">29.2</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">16.3</SimpleData>
@@ -832,9 +832,9 @@
       <Point><coordinates>-87.5599976,41.7099991</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">52</SimpleData>
-		<SimpleData name="Community">East Side</SimpleData>
+		<SimpleData name="Community">EAST SIDE</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">6.8</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">19.2</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">12.1</SimpleData>
@@ -842,15 +842,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">42.8</SimpleData>
 		<SimpleData name="Per Capita Income">17104</SimpleData>
 		<SimpleData name="Hardship Index">64</SimpleData>
-		<SimpleData name="latitude">40.2626228</SimpleData>
-		<SimpleData name="longitude">-76.8649139</SimpleData>
+		<SimpleData name="latitude">41.708</SimpleData>
+		<SimpleData name="longitude">-87.5352</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-76.8649139,40.2626228</coordinates></Point>
+      <Point><coordinates>-87.5352,41.708</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">53</SimpleData>
-		<SimpleData name="Community">West Pullman</SimpleData>
+		<SimpleData name="Community">WEST PULLMAN</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">3.3</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">25.9</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">19.4</SimpleData>
@@ -864,9 +864,9 @@
       <Point><coordinates>-87.6418915,41.6795082</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">54</SimpleData>
-		<SimpleData name="Community">Riverdale</SimpleData>
+		<SimpleData name="Community">RIVERDALE</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">5.8</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">56.5</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">34.6</SimpleData>
@@ -880,9 +880,9 @@
       <Point><coordinates>-87.6038,41.6611</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">55</SimpleData>
-		<SimpleData name="Community">Hegewisch</SimpleData>
+		<SimpleData name="Community">HEGEWISCH</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">3.3</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">17.1</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">9.6</SimpleData>
@@ -896,9 +896,9 @@
       <Point><coordinates>-87.5462036,41.6536789</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">56</SimpleData>
-		<SimpleData name="Community">Garfield Ridge</SimpleData>
+		<SimpleData name="Community">GARFIELD RIDGE</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">2.6</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">8.8</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">11.3</SimpleData>
@@ -912,9 +912,9 @@
       <Point><coordinates>-87.7701416,41.7907486</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">57</SimpleData>
-		<SimpleData name="Community">Archer Heights</SimpleData>
+		<SimpleData name="Community">ARCHER HEIGHTS</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">8.5</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">14.1</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">16.5</SimpleData>
@@ -928,9 +928,9 @@
       <Point><coordinates>-87.7255402,41.8115005</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">58</SimpleData>
-		<SimpleData name="Community">Brighton Park</SimpleData>
+		<SimpleData name="Community">BRIGHTON PARK</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">14.4</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">23.6</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">13.9</SimpleData>
@@ -938,15 +938,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">39.3</SimpleData>
 		<SimpleData name="Per Capita Income">13089</SimpleData>
 		<SimpleData name="Hardship Index">84</SimpleData>
-		<SimpleData name="latitude">43.1382561</SimpleData>
-		<SimpleData name="longitude">-76.2264557</SimpleData>
+		<SimpleData name="latitude">41.8194</SimpleData>
+		<SimpleData name="longitude">-87.699</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-76.2264557,43.1382561</coordinates></Point>
+      <Point><coordinates>-87.699,41.8194</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">59</SimpleData>
-		<SimpleData name="Community">McKinley Park</SimpleData>
+		<SimpleData name="Community">MCKINLEY PARK</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">7.2</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">18.7</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">13.4</SimpleData>
@@ -960,9 +960,9 @@
       <Point><coordinates>-87.679718,41.8248749</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">60</SimpleData>
-		<SimpleData name="Community">Bridgeport</SimpleData>
+		<SimpleData name="Community">BRIDGEPORT</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">4.5</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">18.9</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">13.7</SimpleData>
@@ -970,15 +970,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">31.3</SimpleData>
 		<SimpleData name="Per Capita Income">22694</SimpleData>
 		<SimpleData name="Hardship Index">43</SimpleData>
-		<SimpleData name="latitude">41.181881</SimpleData>
-		<SimpleData name="longitude">-73.1912689</SimpleData>
+		<SimpleData name="latitude">41.8365</SimpleData>
+		<SimpleData name="longitude">-87.6495</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-73.1912689,41.181881</coordinates></Point>
+      <Point><coordinates>-87.6495,41.8365</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">61</SimpleData>
-		<SimpleData name="Community">New City</SimpleData>
+		<SimpleData name="Community">BACK OF THE YARDS</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">11.9</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">29</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">23</SimpleData>
@@ -986,15 +986,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">38.9</SimpleData>
 		<SimpleData name="Per Capita Income">12765</SimpleData>
 		<SimpleData name="Hardship Index">91</SimpleData>
-		<SimpleData name="latitude">41.8443222</SimpleData>
-		<SimpleData name="longitude">-74.6124344</SimpleData>
+		<SimpleData name="latitude">41.8067</SimpleData>
+		<SimpleData name="longitude">-87.668</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-74.6124344,41.8443222</coordinates></Point>
+      <Point><coordinates>-87.668,41.8067</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">62</SimpleData>
-		<SimpleData name="Community">West Elsdon</SimpleData>
+		<SimpleData name="Community">WEST ELSDON</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">11.1</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">15.6</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">16.7</SimpleData>
@@ -1002,15 +1002,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">37.7</SimpleData>
 		<SimpleData name="Per Capita Income">15754</SimpleData>
 		<SimpleData name="Hardship Index">69</SimpleData>
-		<SimpleData name="latitude">41.7914009</SimpleData>
-		<SimpleData name="longitude">-87.7234116</SimpleData>
+		<SimpleData name="latitude">41.7929</SimpleData>
+		<SimpleData name="longitude">-87.7222</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-87.7234116,41.7914009</coordinates></Point>
+      <Point><coordinates>-87.7222,41.7929</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">63</SimpleData>
-		<SimpleData name="Community">Gage Park</SimpleData>
+		<SimpleData name="Community">GAGE PARK</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">15.8</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">23.4</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">18.2</SimpleData>
@@ -1018,15 +1018,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">38.8</SimpleData>
 		<SimpleData name="Per Capita Income">12171</SimpleData>
 		<SimpleData name="Hardship Index">93</SimpleData>
-		<SimpleData name="latitude">43.6833153</SimpleData>
-		<SimpleData name="longitude">-79.7575989</SimpleData>
+		<SimpleData name="latitude">41.7954</SimpleData>
+		<SimpleData name="longitude">-87.6962</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-79.7575989,43.6833153</coordinates></Point>
+      <Point><coordinates>-87.6962,41.7954</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">64</SimpleData>
-		<SimpleData name="Community">Clearing</SimpleData>
+		<SimpleData name="Community">CLEARING</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">2.7</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">8.9</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">9.5</SimpleData>
@@ -1034,15 +1034,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">37.6</SimpleData>
 		<SimpleData name="Per Capita Income">25113</SimpleData>
 		<SimpleData name="Hardship Index">29</SimpleData>
-		<SimpleData name="latitude">38.5323639</SimpleData>
-		<SimpleData name="longitude">-81.0343552</SimpleData>
+		<SimpleData name="latitude">41.7784</SimpleData>
+		<SimpleData name="longitude">-87.7692</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-81.0343552,38.5323639</coordinates></Point>
+      <Point><coordinates>-87.7692,41.7784</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">65</SimpleData>
-		<SimpleData name="Community">West Lawn</SimpleData>
+		<SimpleData name="Community">WEST LAWN</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">5.8</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">14.9</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">9.6</SimpleData>
@@ -1050,15 +1050,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">39.6</SimpleData>
 		<SimpleData name="Per Capita Income">16907</SimpleData>
 		<SimpleData name="Hardship Index">56</SimpleData>
-		<SimpleData name="latitude">41.7731514</SimpleData>
-		<SimpleData name="longitude">-87.7244492</SimpleData>
+		<SimpleData name="latitude">41.7728</SimpleData>
+		<SimpleData name="longitude">-87.7223</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-87.7244492,41.7731514</coordinates></Point>
+      <Point><coordinates>-87.7223,41.7728</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">66</SimpleData>
-		<SimpleData name="Community">Chicago Lawn</SimpleData>
+		<SimpleData name="Community">CHICAGO LAWN</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">7.6</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">27.9</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">17.1</SimpleData>
@@ -1072,9 +1072,9 @@
       <Point><coordinates>-87.6963425,41.7754097</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">67</SimpleData>
-		<SimpleData name="Community">West Englewood</SimpleData>
+		<SimpleData name="Community">WEST ENGLEWOOD</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">4.8</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">34.4</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">35.9</SimpleData>
@@ -1088,9 +1088,9 @@
       <Point><coordinates>-87.6672287,41.7775803</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">68</SimpleData>
-		<SimpleData name="Community">Englewood</SimpleData>
+		<SimpleData name="Community">ENGLEWOOD</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">3.8</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">46.6</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">28</SimpleData>
@@ -1098,15 +1098,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">42.5</SimpleData>
 		<SimpleData name="Per Capita Income">11888</SimpleData>
 		<SimpleData name="Hardship Index">94</SimpleData>
-		<SimpleData name="latitude">40.8952484</SimpleData>
-		<SimpleData name="longitude">-73.9746017</SimpleData>
+		<SimpleData name="latitude">41.7753</SimpleData>
+		<SimpleData name="longitude">-87.6416</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-73.9746017,40.8952484</coordinates></Point>
+      <Point><coordinates>-87.6416,41.7753</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">69</SimpleData>
-		<SimpleData name="Community">Greater Grand Crossing</SimpleData>
+		<SimpleData name="Community">GREATER GRAND CROSSING</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">3.6</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">29.6</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">23</SimpleData>
@@ -1120,9 +1120,9 @@
       <Point><coordinates>-87.6145782,41.7620583</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">70</SimpleData>
-		<SimpleData name="Community">Ashburn</SimpleData>
+		<SimpleData name="Community">ASHBURN</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">4</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">10.4</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">11.7</SimpleData>
@@ -1130,15 +1130,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">36.9</SimpleData>
 		<SimpleData name="Per Capita Income">23482</SimpleData>
 		<SimpleData name="Hardship Index">37</SimpleData>
-		<SimpleData name="latitude">37.5349312</SimpleData>
-		<SimpleData name="longitude">-75.8772278</SimpleData>
+		<SimpleData name="latitude">41.7479</SimpleData>
+		<SimpleData name="longitude">-87.7072</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-75.8772278,37.5349312</coordinates></Point>
+      <Point><coordinates>-87.7072,41.7479</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">71</SimpleData>
-		<SimpleData name="Community">Auburn Gresham</SimpleData>
+		<SimpleData name="Community">AUBURN GRESHAM</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">4</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">27.6</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">28.3</SimpleData>
@@ -1152,9 +1152,9 @@
       <Point><coordinates>-87.6550369,41.7431908</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">72</SimpleData>
-		<SimpleData name="Community">Beverly</SimpleData>
+		<SimpleData name="Community">BEVERLY</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">0.9</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">5.1</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">8</SimpleData>
@@ -1168,9 +1168,9 @@
       <Point><coordinates>-87.6762,41.7171</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">73</SimpleData>
-		<SimpleData name="Community">Washington Height</SimpleData>
+		<SimpleData name="Community">WASHINGTON HEIGHT</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">1.1</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">16.9</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">20.8</SimpleData>
@@ -1178,15 +1178,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">42.6</SimpleData>
 		<SimpleData name="Per Capita Income">19713</SimpleData>
 		<SimpleData name="Hardship Index">48</SimpleData>
-		<SimpleData name="latitude">39.672081</SimpleData>
-		<SimpleData name="longitude">-75.7233124</SimpleData>
+		<SimpleData name="latitude">41.716</SimpleData>
+		<SimpleData name="longitude">-87.6506</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-75.7233124,39.672081</coordinates></Point>
+      <Point><coordinates>-87.6506,41.716</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">74</SimpleData>
-		<SimpleData name="Community">Mount Greenwood</SimpleData>
+		<SimpleData name="Community">MOUNT GREENWOOD</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">1</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">3.4</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">8.7</SimpleData>
@@ -1200,9 +1200,9 @@
       <Point><coordinates>-87.7087326,41.6914406</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">75</SimpleData>
-		<SimpleData name="Community">Morgan Park</SimpleData>
+		<SimpleData name="Community">MORGAN PARK</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">0.8</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">13.2</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">15</SimpleData>
@@ -1210,15 +1210,15 @@
 		<SimpleData name="Percent Aged Under 18 or over 64">40.3</SimpleData>
 		<SimpleData name="Per Capita Income">27149</SimpleData>
 		<SimpleData name="Hardship Index">30</SimpleData>
-		<SimpleData name="latitude">42.0160522</SimpleData>
-		<SimpleData name="longitude">-87.8277817</SimpleData>
+		<SimpleData name="latitude">41.6878</SimpleData>
+		<SimpleData name="longitude">-87.669</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-87.8277817,42.0160522</coordinates></Point>
+      <Point><coordinates>-87.669,41.6878</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">76</SimpleData>
-		<SimpleData name="Community">O'Hare</SimpleData>
+		<SimpleData name="Community">O'HARE</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">3.6</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">15.4</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">7.1</SimpleData>
@@ -1232,9 +1232,9 @@
       <Point><coordinates>-87.8485794,41.9663696</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">77</SimpleData>
-		<SimpleData name="Community">Edgewater</SimpleData>
+		<SimpleData name="Community">EDGEWATER</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">4.1</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">18.2</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">9.2</SimpleData>
@@ -1248,9 +1248,9 @@
       <Point><coordinates>-87.6612,41.9872</coordinates></Point>
   </Placemark>
   <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#ChicagoSocEconKML">
+	<ExtendedData><SchemaData schemaUrl="#Untitled">
 		<SimpleData name="Community Area Number">78</SimpleData>
-		<SimpleData name="Community">Chicago (City)</SimpleData>
+		<SimpleData name="Community">CHICAGO (CITY)</SimpleData>
 		<SimpleData name="Percent of Housing Crowded">4.7</SimpleData>
 		<SimpleData name="Percent Households Below Poverty">19.7</SimpleData>
 		<SimpleData name="Percent Aged 16+ Unemployed">12.9</SimpleData>

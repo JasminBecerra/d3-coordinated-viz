@@ -6,13 +6,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -78.7711105,
-          37.3117523
+          -87.6696,
+          42.0106
         ]
       },
       "properties": {
         "Community Area Number": 1,
-        "Community": "Rogers Park",
+        "Community": "ROGERS PARK",
         "Percent of Housing Crowded": 7.7,
         "Percent Households Below Poverty": 23.6,
         "Percent Aged 16+ Unemployed": 8.7,
@@ -20,8 +20,8 @@
         "Percent Aged Under 18 or over 64": 27.5,
         "Per Capita Income": 23939,
         "Hardship Index": 39,
-        "latitude": 37.3117523,
-        "longitude": -78.7711105
+        "latitude": 42.0106,
+        "longitude": -87.6696
       }
     },
     {
@@ -29,13 +29,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -78.2809067,
-          37.4701309
+          -87.6926,
+          42.0006
         ]
       },
       "properties": {
         "Community Area Number": 2,
-        "Community": "West Ridge",
+        "Community": "WEST RIDGE",
         "Percent of Housing Crowded": 7.8,
         "Percent Households Below Poverty": 17.2,
         "Percent Aged 16+ Unemployed": 8.8,
@@ -43,8 +43,8 @@
         "Percent Aged Under 18 or over 64": 38.5,
         "Per Capita Income": 23040,
         "Hardship Index": 46,
-        "latitude": 37.4701309,
-        "longitude": -78.2809067
+        "latitude": 42.0006,
+        "longitude": -87.6926
       }
     },
     {
@@ -58,7 +58,7 @@
       },
       "properties": {
         "Community Area Number": 3,
-        "Community": "Uptown",
+        "Community": "UPTOWN",
         "Percent of Housing Crowded": 3.8,
         "Percent Households Below Poverty": 24,
         "Percent Aged 16+ Unemployed": 8.9,
@@ -81,7 +81,7 @@
       },
       "properties": {
         "Community Area Number": 4,
-        "Community": "Lincoln Square",
+        "Community": "LINCOLN SQUARE",
         "Percent of Housing Crowded": 3.4,
         "Percent Households Below Poverty": 10.9,
         "Percent Aged 16+ Unemployed": 8.2,
@@ -104,7 +104,7 @@
       },
       "properties": {
         "Community Area Number": 5,
-        "Community": "North Center",
+        "Community": "NORTH CENTER",
         "Percent of Housing Crowded": 0.3,
         "Percent Households Below Poverty": 7.5,
         "Percent Aged 16+ Unemployed": 5.2,
@@ -127,7 +127,7 @@
       },
       "properties": {
         "Community Area Number": 6,
-        "Community": "Lake View",
+        "Community": "LAKE VIEW",
         "Percent of Housing Crowded": 1.1,
         "Percent Households Below Poverty": 11.4,
         "Percent Aged 16+ Unemployed": 4.7,
@@ -150,7 +150,7 @@
       },
       "properties": {
         "Community Area Number": 7,
-        "Community": "Lincoln Park",
+        "Community": "LINCOLN PARK",
         "Percent of Housing Crowded": 0.8,
         "Percent Households Below Poverty": 12.3,
         "Percent Aged 16+ Unemployed": 5.1,
@@ -173,7 +173,7 @@
       },
       "properties": {
         "Community Area Number": 8,
-        "Community": "Near North Side",
+        "Community": "NEAR NORTH SIDE",
         "Percent of Housing Crowded": 1.9,
         "Percent Households Below Poverty": 12.9,
         "Percent Aged 16+ Unemployed": 7,
@@ -196,7 +196,7 @@
       },
       "properties": {
         "Community Area Number": 9,
-        "Community": "Edison Park",
+        "Community": "EDISON PARK",
         "Percent of Housing Crowded": 1.1,
         "Percent Households Below Poverty": 3.3,
         "Percent Aged 16+ Unemployed": 6.5,
@@ -219,7 +219,7 @@
       },
       "properties": {
         "Community Area Number": 10,
-        "Community": "Norwood Park",
+        "Community": "NORWOOD PARK",
         "Percent of Housing Crowded": 2,
         "Percent Households Below Poverty": 5.4,
         "Percent Aged 16+ Unemployed": 9,
@@ -236,13 +236,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -105.8007431,
-          39.377121
+          -87.7704,
+          41.9825
         ]
       },
       "properties": {
         "Community Area Number": 11,
-        "Community": "Jefferson Park",
+        "Community": "JEFFERSON PARK",
         "Percent of Housing Crowded": 2.7,
         "Percent Households Below Poverty": 8.6,
         "Percent Aged 16+ Unemployed": 12.4,
@@ -250,8 +250,8 @@
         "Percent Aged Under 18 or over 64": 35.5,
         "Per Capita Income": 27751,
         "Hardship Index": 25,
-        "latitude": 39.377121,
-        "longitude": -105.8007431
+        "latitude": 41.9825,
+        "longitude": -87.7704
       }
     },
     {
@@ -259,13 +259,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.75,
+          -87.7514,
           41.9830017
         ]
       },
       "properties": {
         "Community Area Number": 12,
-        "Community": "Forest Glen",
+        "Community": "FOREST GLEN",
         "Percent of Housing Crowded": 1.1,
         "Percent Households Below Poverty": 7.5,
         "Percent Aged 16+ Unemployed": 6.8,
@@ -274,7 +274,7 @@
         "Per Capita Income": 44164,
         "Hardship Index": 11,
         "latitude": 41.9830017,
-        "longitude": -87.75
+        "longitude": -87.7514
       }
     },
     {
@@ -282,13 +282,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.2548904,
-          39.4976273
+          -87.726,
+          41.9843
         ]
       },
       "properties": {
         "Community Area Number": 13,
-        "Community": "North Park",
+        "Community": "NORTH PARK",
         "Percent of Housing Crowded": 3.9,
         "Percent Households Below Poverty": 13.2,
         "Percent Aged 16+ Unemployed": 9.9,
@@ -296,8 +296,8 @@
         "Percent Aged Under 18 or over 64": 39,
         "Per Capita Income": 26576,
         "Hardship Index": 33,
-        "latitude": 39.4976273,
-        "longitude": -80.2548904
+        "latitude": 41.9843,
+        "longitude": -87.726
       }
     },
     {
@@ -311,7 +311,7 @@
       },
       "properties": {
         "Community Area Number": 14,
-        "Community": "Albany Park",
+        "Community": "ALBANY PARK",
         "Percent of Housing Crowded": 11.3,
         "Percent Households Below Poverty": 19.2,
         "Percent Aged 16+ Unemployed": 10,
@@ -334,7 +334,7 @@
       },
       "properties": {
         "Community Area Number": 15,
-        "Community": "Portage Park",
+        "Community": "PORTAGE PARK",
         "Percent of Housing Crowded": 4.1,
         "Percent Households Below Poverty": 11.6,
         "Percent Aged 16+ Unemployed": 12.6,
@@ -351,13 +351,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.5447006,
-          36.1044617
+          -87.7212,
+          41.953
         ]
       },
       "properties": {
         "Community Area Number": 16,
-        "Community": "Irving Park",
+        "Community": "IRVING PARK",
         "Percent of Housing Crowded": 6.3,
         "Percent Households Below Poverty": 13.1,
         "Percent Aged 16+ Unemployed": 10,
@@ -365,8 +365,8 @@
         "Percent Aged Under 18 or over 64": 31.6,
         "Per Capita Income": 27249,
         "Hardship Index": 34,
-        "latitude": 36.1044617,
-        "longitude": -79.5447006
+        "latitude": 41.953,
+        "longitude": -87.7212
       }
     },
     {
@@ -374,13 +374,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.1459732,
-          38.4957008
+          -87.8065,
+          41.9472
         ]
       },
       "properties": {
         "Community Area Number": 17,
-        "Community": "Dunning",
+        "Community": "DUNNING",
         "Percent of Housing Crowded": 5.2,
         "Percent Households Below Poverty": 10.6,
         "Percent Aged 16+ Unemployed": 10,
@@ -388,8 +388,8 @@
         "Percent Aged Under 18 or over 64": 33.6,
         "Per Capita Income": 26282,
         "Hardship Index": 28,
-        "latitude": 38.4957008,
-        "longitude": -80.1459732
+        "latitude": 41.9472,
+        "longitude": -87.8065
       }
     },
     {
@@ -403,7 +403,7 @@
       },
       "properties": {
         "Community Area Number": 18,
-        "Community": "Montclaire",
+        "Community": "MONTCLAIRE",
         "Percent of Housing Crowded": 8.1,
         "Percent Households Below Poverty": 15.3,
         "Percent Aged 16+ Unemployed": 13.8,
@@ -420,13 +420,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.8995056,
-          39.8454018
+          -87.7659,
+          41.9264
         ]
       },
       "properties": {
         "Community Area Number": 19,
-        "Community": "Belmont Cragin",
+        "Community": "BELMONT CRAGIN",
         "Percent of Housing Crowded": 10.8,
         "Percent Households Below Poverty": 18.7,
         "Percent Aged 16+ Unemployed": 14.6,
@@ -434,8 +434,8 @@
         "Percent Aged Under 18 or over 64": 37.3,
         "Per Capita Income": 15461,
         "Hardship Index": 70,
-        "latitude": 39.8454018,
-        "longitude": -79.8995056
+        "latitude": 41.9264,
+        "longitude": -87.7659
       }
     },
     {
@@ -443,13 +443,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.7651138,
-          40.2115936
+          -87.7344,
+          41.9215
         ]
       },
       "properties": {
         "Community Area Number": 20,
-        "Community": "Hermosa",
+        "Community": "HERMOSA",
         "Percent of Housing Crowded": 6.9,
         "Percent Households Below Poverty": 20.5,
         "Percent Aged 16+ Unemployed": 13.1,
@@ -457,8 +457,8 @@
         "Percent Aged Under 18 or over 64": 36.4,
         "Per Capita Income": 15089,
         "Hardship Index": 71,
-        "latitude": 40.2115936,
-        "longitude": -79.7651138
+        "latitude": 41.9215,
+        "longitude": -87.7344
       }
     },
     {
@@ -466,13 +466,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.0089798,
-          38.9659233
+          -87.7025,
+          41.9415
         ]
       },
       "properties": {
         "Community Area Number": 21,
-        "Community": "Avondale",
+        "Community": "AVONDALE",
         "Percent of Housing Crowded": 6,
         "Percent Households Below Poverty": 15.3,
         "Percent Aged 16+ Unemployed": 9.2,
@@ -480,8 +480,8 @@
         "Percent Aged Under 18 or over 64": 31,
         "Per Capita Income": 20039,
         "Hardship Index": 42,
-        "latitude": 38.9659233,
-        "longitude": -77.0089798
+        "latitude": 41.9415,
+        "longitude": -87.7025
       }
     },
     {
@@ -489,13 +489,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.9288712,
-          32.5110016
+          -87.7093,
+          41.9231
         ]
       },
       "properties": {
         "Community Area Number": 22,
-        "Community": "Logan Square",
+        "Community": "LOGAN SQUARE",
         "Percent of Housing Crowded": 3.2,
         "Percent Households Below Poverty": 16.8,
         "Percent Aged 16+ Unemployed": 8.2,
@@ -503,8 +503,8 @@
         "Percent Aged Under 18 or over 64": 26.2,
         "Per Capita Income": 31908,
         "Hardship Index": 23,
-        "latitude": 32.5110016,
-        "longitude": -84.9288712
+        "latitude": 41.9231,
+        "longitude": -87.7093
       }
     },
     {
@@ -518,7 +518,7 @@
       },
       "properties": {
         "Community Area Number": 23,
-        "Community": "Humboldt park",
+        "Community": "HUMBOLDT PARK",
         "Percent of Housing Crowded": 14.8,
         "Percent Households Below Poverty": 33.9,
         "Percent Aged 16+ Unemployed": 17.3,
@@ -535,13 +535,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.9250793,
-          39.8311195
+          -87.6722,
+          41.8936
         ]
       },
       "properties": {
         "Community Area Number": 24,
-        "Community": "West Town",
+        "Community": "WEST TOWN",
         "Percent of Housing Crowded": 2.3,
         "Percent Households Below Poverty": 14.7,
         "Percent Aged 16+ Unemployed": 6.6,
@@ -549,8 +549,8 @@
         "Percent Aged Under 18 or over 64": 21.7,
         "Per Capita Income": 43198,
         "Hardship Index": 10,
-        "latitude": 39.8311195,
-        "longitude": -82.9250793
+        "latitude": 41.8936,
+        "longitude": -87.6722
       }
     },
     {
@@ -558,13 +558,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.7429886,
-          30.2675896
+          -87.7616,
+          41.893
         ]
       },
       "properties": {
         "Community Area Number": 25,
-        "Community": "Austin",
+        "Community": "AUSTIN",
         "Percent of Housing Crowded": 6.3,
         "Percent Households Below Poverty": 28.6,
         "Percent Aged 16+ Unemployed": 22.6,
@@ -572,8 +572,8 @@
         "Percent Aged Under 18 or over 64": 37.9,
         "Per Capita Income": 15957,
         "Hardship Index": 73,
-        "latitude": 30.2675896,
-        "longitude": -97.7429886
+        "latitude": 41.893,
+        "longitude": -87.7616
       }
     },
     {
@@ -587,7 +587,7 @@
       },
       "properties": {
         "Community Area Number": 26,
-        "Community": "West Garfield Park",
+        "Community": "WEST GARFIELD PARK",
         "Percent of Housing Crowded": 9.4,
         "Percent Households Below Poverty": 41.7,
         "Percent Aged 16+ Unemployed": 25.8,
@@ -610,7 +610,7 @@
       },
       "properties": {
         "Community Area Number": 27,
-        "Community": "East Garfield Park",
+        "Community": "EAST GARFIELD PARK",
         "Percent of Housing Crowded": 8.2,
         "Percent Households Below Poverty": 42.4,
         "Percent Aged 16+ Unemployed": 19.6,
@@ -633,7 +633,7 @@
       },
       "properties": {
         "Community Area Number": 28,
-        "Community": "Near West Side",
+        "Community": "NEAR WEST SIDE",
         "Percent of Housing Crowded": 3.8,
         "Percent Households Below Poverty": 20.6,
         "Percent Aged 16+ Unemployed": 10.7,
@@ -650,13 +650,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.3538513,
-          33.8986206
+          -87.7139,
+          41.8585
         ]
       },
       "properties": {
         "Community Area Number": 29,
-        "Community": "North Lawndale",
+        "Community": "NORTH LAWNDALE",
         "Percent of Housing Crowded": 7.4,
         "Percent Households Below Poverty": 43.1,
         "Percent Aged 16+ Unemployed": 21.2,
@@ -664,8 +664,8 @@
         "Percent Aged Under 18 or over 64": 42.7,
         "Per Capita Income": 12034,
         "Hardship Index": 87,
-        "latitude": 33.8986206,
-        "longitude": -118.3538513
+        "latitude": 41.8585,
+        "longitude": -87.7139
       }
     },
     {
@@ -673,13 +673,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.3538513,
-          33.8986206
+          -87.7058,
+          41.8458
         ]
       },
       "properties": {
         "Community Area Number": 30,
-        "Community": "South Lawndale",
+        "Community": "LITTLE VILLAGE",
         "Percent of Housing Crowded": 15.2,
         "Percent Households Below Poverty": 30.7,
         "Percent Aged 16+ Unemployed": 15.8,
@@ -687,8 +687,8 @@
         "Percent Aged Under 18 or over 64": 33.8,
         "Per Capita Income": 10402,
         "Hardship Index": 96,
-        "latitude": 33.8986206,
-        "longitude": -118.3538513
+        "latitude": 41.8458,
+        "longitude": -87.7058
       }
     },
     {
@@ -702,7 +702,7 @@
       },
       "properties": {
         "Community Area Number": 31,
-        "Community": "Lower West Side",
+        "Community": "LOWER WEST SIDE",
         "Percent of Housing Crowded": 9.6,
         "Percent Households Below Poverty": 25.8,
         "Percent Aged 16+ Unemployed": 15.8,
@@ -725,7 +725,7 @@
       },
       "properties": {
         "Community Area Number": 32,
-        "Community": "Loop",
+        "Community": "LOOP",
         "Percent of Housing Crowded": 1.5,
         "Percent Households Below Poverty": 14.7,
         "Percent Aged 16+ Unemployed": 5.7,
@@ -748,7 +748,7 @@
       },
       "properties": {
         "Community Area Number": 33,
-        "Community": "Near South Side",
+        "Community": "NEAR SOUTH SIDE",
         "Percent of Housing Crowded": 1.3,
         "Percent Households Below Poverty": 13.8,
         "Percent Aged 16+ Unemployed": 4.9,
@@ -771,7 +771,7 @@
       },
       "properties": {
         "Community Area Number": 34,
-        "Community": "Armour Square",
+        "Community": "ARMOUR SQUARE",
         "Percent of Housing Crowded": 5.7,
         "Percent Households Below Poverty": 40.1,
         "Percent Aged 16+ Unemployed": 16.7,
@@ -788,13 +788,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -74.2584839,
-          10.2567377
+          -87.618,
+          41.8347
         ]
       },
       "properties": {
         "Community Area Number": 35,
-        "Community": "Douglas",
+        "Community": "DOUGLAS",
         "Percent of Housing Crowded": 1.8,
         "Percent Households Below Poverty": 29.6,
         "Percent Aged 16+ Unemployed": 18.2,
@@ -802,8 +802,8 @@
         "Percent Aged Under 18 or over 64": 30.7,
         "Per Capita Income": 23791,
         "Hardship Index": 47,
-        "latitude": 10.2567377,
-        "longitude": -74.2584839
+        "latitude": 41.8347,
+        "longitude": -87.618
       }
     },
     {
@@ -811,13 +811,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2730713,
-          37.8050804
+          -87.6014,
+          41.8227
         ]
       },
       "properties": {
         "Community Area Number": 36,
-        "Community": "Oakland",
+        "Community": "OAKLAND",
         "Percent of Housing Crowded": 1.3,
         "Percent Households Below Poverty": 39.7,
         "Percent Aged 16+ Unemployed": 28.7,
@@ -825,8 +825,8 @@
         "Percent Aged Under 18 or over 64": 40.4,
         "Per Capita Income": 19252,
         "Hardship Index": 78,
-        "latitude": 37.8050804,
-        "longitude": -122.2730713
+        "latitude": 41.8227,
+        "longitude": -87.6014
       }
     },
     {
@@ -840,7 +840,7 @@
       },
       "properties": {
         "Community Area Number": 37,
-        "Community": "Fuller Park",
+        "Community": "FULLER PARK",
         "Percent of Housing Crowded": 3.2,
         "Percent Households Below Poverty": 51.2,
         "Percent Aged 16+ Unemployed": 33.9,
@@ -863,7 +863,7 @@
       },
       "properties": {
         "Community Area Number": 38,
-        "Community": "Grand Boulevard",
+        "Community": "GRAND BOULEVARD",
         "Percent of Housing Crowded": 3.3,
         "Percent Households Below Poverty": 29.3,
         "Percent Aged 16+ Unemployed": 24.3,
@@ -886,7 +886,7 @@
       },
       "properties": {
         "Community Area Number": 39,
-        "Community": "Kenwood",
+        "Community": "KENWOOD",
         "Percent of Housing Crowded": 2.4,
         "Percent Households Below Poverty": 21.7,
         "Percent Aged 16+ Unemployed": 15.7,
@@ -903,13 +903,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2662125,
-          48.675209
+          -87.6176,
+          41.7932
         ]
       },
       "properties": {
         "Community Area Number": 40,
-        "Community": "Washington Park",
+        "Community": "WASHINGTON PARK",
         "Percent of Housing Crowded": 5.6,
         "Percent Households Below Poverty": 42.1,
         "Percent Aged 16+ Unemployed": 28.6,
@@ -917,8 +917,8 @@
         "Percent Aged Under 18 or over 64": 42.8,
         "Per Capita Income": 13785,
         "Hardship Index": 88,
-        "latitude": 48.675209,
-        "longitude": -122.2662125
+        "latitude": 41.7932,
+        "longitude": -87.6176
       }
     },
     {
@@ -926,13 +926,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.3118744,
-          32.3481903
+          -87.5907,
+          41.7943
         ]
       },
       "properties": {
         "Community Area Number": 41,
-        "Community": "Hyde Park",
+        "Community": "HYDE PARK",
         "Percent of Housing Crowded": 1.5,
         "Percent Households Below Poverty": 18.4,
         "Percent Aged 16+ Unemployed": 8.4,
@@ -940,8 +940,8 @@
         "Percent Aged Under 18 or over 64": 26.2,
         "Per Capita Income": 39056,
         "Hardship Index": 14,
-        "latitude": 32.3481903,
-        "longitude": -90.3118744
+        "latitude": 41.7943,
+        "longitude": -87.5907
       }
     },
     {
@@ -955,7 +955,7 @@
       },
       "properties": {
         "Community Area Number": 42,
-        "Community": "Woodlawn",
+        "Community": "WOODLAWN",
         "Percent of Housing Crowded": 2.9,
         "Percent Households Below Poverty": 30.7,
         "Percent Aged 16+ Unemployed": 23.4,
@@ -972,13 +972,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.8791275,
-          39.9653893
+          -87.5742,
+          41.76
         ]
       },
       "properties": {
         "Community Area Number": 43,
-        "Community": "South Shore",
+        "Community": "SOUTH SHORE",
         "Percent of Housing Crowded": 2.8,
         "Percent Households Below Poverty": 31.1,
         "Percent Aged 16+ Unemployed": 20,
@@ -986,8 +986,8 @@
         "Percent Aged Under 18 or over 64": 35.7,
         "Per Capita Income": 19398,
         "Hardship Index": 55,
-        "latitude": 39.9653893,
-        "longitude": -75.8791275
+        "latitude": 41.76,
+        "longitude": -87.5742
       }
     },
     {
@@ -1001,7 +1001,7 @@
       },
       "properties": {
         "Community Area Number": 44,
-        "Community": "Chatham",
+        "Community": "CHATHAM",
         "Percent of Housing Crowded": 3.3,
         "Percent Households Below Poverty": 27.8,
         "Percent Aged 16+ Unemployed": 24,
@@ -1024,7 +1024,7 @@
       },
       "properties": {
         "Community Area Number": 45,
-        "Community": "Avalon Park",
+        "Community": "AVALON PARK",
         "Percent of Housing Crowded": 1.4,
         "Percent Households Below Poverty": 17.2,
         "Percent Aged 16+ Unemployed": 21.1,
@@ -1047,7 +1047,7 @@
       },
       "properties": {
         "Community Area Number": 46,
-        "Community": "South Chicago",
+        "Community": "SOUTH CHICAGO",
         "Percent of Housing Crowded": 4.7,
         "Percent Households Below Poverty": 29.8,
         "Percent Aged 16+ Unemployed": 19.7,
@@ -1064,13 +1064,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -74.0536194,
-          41.6960526
+          -87.5964,
+          41.7281
         ]
       },
       "properties": {
         "Community Area Number": 47,
-        "Community": "Burnside",
+        "Community": "BURNSIDE",
         "Percent of Housing Crowded": 6.8,
         "Percent Households Below Poverty": 33,
         "Percent Aged 16+ Unemployed": 18.6,
@@ -1078,8 +1078,8 @@
         "Percent Aged Under 18 or over 64": 42.7,
         "Per Capita Income": 12515,
         "Hardship Index": 79,
-        "latitude": 41.6960526,
-        "longitude": -74.0536194
+        "latitude": 41.7281,
+        "longitude": -87.5964
       }
     },
     {
@@ -1093,7 +1093,7 @@
       },
       "properties": {
         "Community Area Number": 48,
-        "Community": "Calumet Heights",
+        "Community": "CALUMET HEIGHTS",
         "Percent of Housing Crowded": 2.1,
         "Percent Households Below Poverty": 11.5,
         "Percent Aged 16+ Unemployed": 20,
@@ -1110,13 +1110,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -76.2451401,
-          40.7933998
+          -87.6236,
+          41.7113
         ]
       },
       "properties": {
         "Community Area Number": 49,
-        "Community": "Roseland",
+        "Community": "ROSELAND",
         "Percent of Housing Crowded": 2.5,
         "Percent Households Below Poverty": 19.8,
         "Percent Aged 16+ Unemployed": 20.3,
@@ -1124,8 +1124,8 @@
         "Percent Aged Under 18 or over 64": 41.2,
         "Per Capita Income": 17949,
         "Hardship Index": 52,
-        "latitude": 40.7933998,
-        "longitude": -76.2451401
+        "latitude": 41.7113,
+        "longitude": -87.6236
       }
     },
     {
@@ -1133,13 +1133,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -76.8490448,
-          38.7473907
+          -87.6061,
+          41.6895
         ]
       },
       "properties": {
         "Community Area Number": 50,
-        "Community": "Pullman",
+        "Community": "PULLMAN",
         "Percent of Housing Crowded": 1.5,
         "Percent Households Below Poverty": 21.6,
         "Percent Aged 16+ Unemployed": 22.8,
@@ -1147,8 +1147,8 @@
         "Percent Aged Under 18 or over 64": 38.6,
         "Per Capita Income": 20588,
         "Hardship Index": 51,
-        "latitude": 38.7473907,
-        "longitude": -76.8490448
+        "latitude": 41.6895,
+        "longitude": -87.6061
       }
     },
     {
@@ -1162,7 +1162,7 @@
       },
       "properties": {
         "Community Area Number": 51,
-        "Community": "South Deering",
+        "Community": "SOUTH DEERING",
         "Percent of Housing Crowded": 4,
         "Percent Households Below Poverty": 29.2,
         "Percent Aged 16+ Unemployed": 16.3,
@@ -1179,13 +1179,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -76.8649139,
-          40.2626228
+          -87.5352,
+          41.708
         ]
       },
       "properties": {
         "Community Area Number": 52,
-        "Community": "East Side",
+        "Community": "EAST SIDE",
         "Percent of Housing Crowded": 6.8,
         "Percent Households Below Poverty": 19.2,
         "Percent Aged 16+ Unemployed": 12.1,
@@ -1193,8 +1193,8 @@
         "Percent Aged Under 18 or over 64": 42.8,
         "Per Capita Income": 17104,
         "Hardship Index": 64,
-        "latitude": 40.2626228,
-        "longitude": -76.8649139
+        "latitude": 41.708,
+        "longitude": -87.5352
       }
     },
     {
@@ -1208,7 +1208,7 @@
       },
       "properties": {
         "Community Area Number": 53,
-        "Community": "West Pullman",
+        "Community": "WEST PULLMAN",
         "Percent of Housing Crowded": 3.3,
         "Percent Households Below Poverty": 25.9,
         "Percent Aged 16+ Unemployed": 19.4,
@@ -1231,7 +1231,7 @@
       },
       "properties": {
         "Community Area Number": 54,
-        "Community": "Riverdale",
+        "Community": "RIVERDALE",
         "Percent of Housing Crowded": 5.8,
         "Percent Households Below Poverty": 56.5,
         "Percent Aged 16+ Unemployed": 34.6,
@@ -1254,7 +1254,7 @@
       },
       "properties": {
         "Community Area Number": 55,
-        "Community": "Hegewisch",
+        "Community": "HEGEWISCH",
         "Percent of Housing Crowded": 3.3,
         "Percent Households Below Poverty": 17.1,
         "Percent Aged 16+ Unemployed": 9.6,
@@ -1277,7 +1277,7 @@
       },
       "properties": {
         "Community Area Number": 56,
-        "Community": "Garfield Ridge",
+        "Community": "GARFIELD RIDGE",
         "Percent of Housing Crowded": 2.6,
         "Percent Households Below Poverty": 8.8,
         "Percent Aged 16+ Unemployed": 11.3,
@@ -1300,7 +1300,7 @@
       },
       "properties": {
         "Community Area Number": 57,
-        "Community": "Archer Heights",
+        "Community": "ARCHER HEIGHTS",
         "Percent of Housing Crowded": 8.5,
         "Percent Households Below Poverty": 14.1,
         "Percent Aged 16+ Unemployed": 16.5,
@@ -1317,13 +1317,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -76.2264557,
-          43.1382561
+          -87.699,
+          41.8194
         ]
       },
       "properties": {
         "Community Area Number": 58,
-        "Community": "Brighton Park",
+        "Community": "BRIGHTON PARK",
         "Percent of Housing Crowded": 14.4,
         "Percent Households Below Poverty": 23.6,
         "Percent Aged 16+ Unemployed": 13.9,
@@ -1331,8 +1331,8 @@
         "Percent Aged Under 18 or over 64": 39.3,
         "Per Capita Income": 13089,
         "Hardship Index": 84,
-        "latitude": 43.1382561,
-        "longitude": -76.2264557
+        "latitude": 41.8194,
+        "longitude": -87.699
       }
     },
     {
@@ -1346,7 +1346,7 @@
       },
       "properties": {
         "Community Area Number": 59,
-        "Community": "McKinley Park",
+        "Community": "MCKINLEY PARK",
         "Percent of Housing Crowded": 7.2,
         "Percent Households Below Poverty": 18.7,
         "Percent Aged 16+ Unemployed": 13.4,
@@ -1363,13 +1363,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.1912689,
-          41.181881
+          -87.6495,
+          41.8365
         ]
       },
       "properties": {
         "Community Area Number": 60,
-        "Community": "Bridgeport",
+        "Community": "BRIDGEPORT",
         "Percent of Housing Crowded": 4.5,
         "Percent Households Below Poverty": 18.9,
         "Percent Aged 16+ Unemployed": 13.7,
@@ -1377,8 +1377,8 @@
         "Percent Aged Under 18 or over 64": 31.3,
         "Per Capita Income": 22694,
         "Hardship Index": 43,
-        "latitude": 41.181881,
-        "longitude": -73.1912689
+        "latitude": 41.8365,
+        "longitude": -87.6495
       }
     },
     {
@@ -1386,13 +1386,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -74.6124344,
-          41.8443222
+          -87.668,
+          41.8067
         ]
       },
       "properties": {
         "Community Area Number": 61,
-        "Community": "New City",
+        "Community": "BACK OF THE YARDS",
         "Percent of Housing Crowded": 11.9,
         "Percent Households Below Poverty": 29,
         "Percent Aged 16+ Unemployed": 23,
@@ -1400,8 +1400,8 @@
         "Percent Aged Under 18 or over 64": 38.9,
         "Per Capita Income": 12765,
         "Hardship Index": 91,
-        "latitude": 41.8443222,
-        "longitude": -74.6124344
+        "latitude": 41.8067,
+        "longitude": -87.668
       }
     },
     {
@@ -1409,13 +1409,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.7234116,
-          41.7914009
+          -87.7222,
+          41.7929
         ]
       },
       "properties": {
         "Community Area Number": 62,
-        "Community": "West Elsdon",
+        "Community": "WEST ELSDON",
         "Percent of Housing Crowded": 11.1,
         "Percent Households Below Poverty": 15.6,
         "Percent Aged 16+ Unemployed": 16.7,
@@ -1423,8 +1423,8 @@
         "Percent Aged Under 18 or over 64": 37.7,
         "Per Capita Income": 15754,
         "Hardship Index": 69,
-        "latitude": 41.7914009,
-        "longitude": -87.7234116
+        "latitude": 41.7929,
+        "longitude": -87.7222
       }
     },
     {
@@ -1432,13 +1432,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.7575989,
-          43.6833153
+          -87.6962,
+          41.7954
         ]
       },
       "properties": {
         "Community Area Number": 63,
-        "Community": "Gage Park",
+        "Community": "GAGE PARK",
         "Percent of Housing Crowded": 15.8,
         "Percent Households Below Poverty": 23.4,
         "Percent Aged 16+ Unemployed": 18.2,
@@ -1446,8 +1446,8 @@
         "Percent Aged Under 18 or over 64": 38.8,
         "Per Capita Income": 12171,
         "Hardship Index": 93,
-        "latitude": 43.6833153,
-        "longitude": -79.7575989
+        "latitude": 41.7954,
+        "longitude": -87.6962
       }
     },
     {
@@ -1455,13 +1455,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -81.0343552,
-          38.5323639
+          -87.7692,
+          41.7784
         ]
       },
       "properties": {
         "Community Area Number": 64,
-        "Community": "Clearing",
+        "Community": "CLEARING",
         "Percent of Housing Crowded": 2.7,
         "Percent Households Below Poverty": 8.9,
         "Percent Aged 16+ Unemployed": 9.5,
@@ -1469,8 +1469,8 @@
         "Percent Aged Under 18 or over 64": 37.6,
         "Per Capita Income": 25113,
         "Hardship Index": 29,
-        "latitude": 38.5323639,
-        "longitude": -81.0343552
+        "latitude": 41.7784,
+        "longitude": -87.7692
       }
     },
     {
@@ -1478,13 +1478,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.7244492,
-          41.7731514
+          -87.7223,
+          41.7728
         ]
       },
       "properties": {
         "Community Area Number": 65,
-        "Community": "West Lawn",
+        "Community": "WEST LAWN",
         "Percent of Housing Crowded": 5.8,
         "Percent Households Below Poverty": 14.9,
         "Percent Aged 16+ Unemployed": 9.6,
@@ -1492,8 +1492,8 @@
         "Percent Aged Under 18 or over 64": 39.6,
         "Per Capita Income": 16907,
         "Hardship Index": 56,
-        "latitude": 41.7731514,
-        "longitude": -87.7244492
+        "latitude": 41.7728,
+        "longitude": -87.7223
       }
     },
     {
@@ -1507,7 +1507,7 @@
       },
       "properties": {
         "Community Area Number": 66,
-        "Community": "Chicago Lawn",
+        "Community": "CHICAGO LAWN",
         "Percent of Housing Crowded": 7.6,
         "Percent Households Below Poverty": 27.9,
         "Percent Aged 16+ Unemployed": 17.1,
@@ -1530,7 +1530,7 @@
       },
       "properties": {
         "Community Area Number": 67,
-        "Community": "West Englewood",
+        "Community": "WEST ENGLEWOOD",
         "Percent of Housing Crowded": 4.8,
         "Percent Households Below Poverty": 34.4,
         "Percent Aged 16+ Unemployed": 35.9,
@@ -1547,13 +1547,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9746017,
-          40.8952484
+          -87.6416,
+          41.7753
         ]
       },
       "properties": {
         "Community Area Number": 68,
-        "Community": "Englewood",
+        "Community": "ENGLEWOOD",
         "Percent of Housing Crowded": 3.8,
         "Percent Households Below Poverty": 46.6,
         "Percent Aged 16+ Unemployed": 28,
@@ -1561,8 +1561,8 @@
         "Percent Aged Under 18 or over 64": 42.5,
         "Per Capita Income": 11888,
         "Hardship Index": 94,
-        "latitude": 40.8952484,
-        "longitude": -73.9746017
+        "latitude": 41.7753,
+        "longitude": -87.6416
       }
     },
     {
@@ -1576,7 +1576,7 @@
       },
       "properties": {
         "Community Area Number": 69,
-        "Community": "Greater Grand Crossing",
+        "Community": "GREATER GRAND CROSSING",
         "Percent of Housing Crowded": 3.6,
         "Percent Households Below Poverty": 29.6,
         "Percent Aged 16+ Unemployed": 23,
@@ -1593,13 +1593,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.8772278,
-          37.5349312
+          -87.7072,
+          41.7479
         ]
       },
       "properties": {
         "Community Area Number": 70,
-        "Community": "Ashburn",
+        "Community": "ASHBURN",
         "Percent of Housing Crowded": 4,
         "Percent Households Below Poverty": 10.4,
         "Percent Aged 16+ Unemployed": 11.7,
@@ -1607,8 +1607,8 @@
         "Percent Aged Under 18 or over 64": 36.9,
         "Per Capita Income": 23482,
         "Hardship Index": 37,
-        "latitude": 37.5349312,
-        "longitude": -75.8772278
+        "latitude": 41.7479,
+        "longitude": -87.7072
       }
     },
     {
@@ -1622,7 +1622,7 @@
       },
       "properties": {
         "Community Area Number": 71,
-        "Community": "Auburn Gresham",
+        "Community": "AUBURN GRESHAM",
         "Percent of Housing Crowded": 4,
         "Percent Households Below Poverty": 27.6,
         "Percent Aged 16+ Unemployed": 28.3,
@@ -1645,7 +1645,7 @@
       },
       "properties": {
         "Community Area Number": 72,
-        "Community": "Beverly",
+        "Community": "BEVERLY",
         "Percent of Housing Crowded": 0.9,
         "Percent Households Below Poverty": 5.1,
         "Percent Aged 16+ Unemployed": 8,
@@ -1662,13 +1662,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.7233124,
-          39.672081
+          -87.6506,
+          41.716
         ]
       },
       "properties": {
         "Community Area Number": 73,
-        "Community": "Washington Height",
+        "Community": "WASHINGTON HEIGHT",
         "Percent of Housing Crowded": 1.1,
         "Percent Households Below Poverty": 16.9,
         "Percent Aged 16+ Unemployed": 20.8,
@@ -1676,8 +1676,8 @@
         "Percent Aged Under 18 or over 64": 42.6,
         "Per Capita Income": 19713,
         "Hardship Index": 48,
-        "latitude": 39.672081,
-        "longitude": -75.7233124
+        "latitude": 41.716,
+        "longitude": -87.6506
       }
     },
     {
@@ -1691,7 +1691,7 @@
       },
       "properties": {
         "Community Area Number": 74,
-        "Community": "Mount Greenwood",
+        "Community": "MOUNT GREENWOOD",
         "Percent of Housing Crowded": 1,
         "Percent Households Below Poverty": 3.4,
         "Percent Aged 16+ Unemployed": 8.7,
@@ -1708,13 +1708,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.8277817,
-          42.0160522
+          -87.669,
+          41.6878
         ]
       },
       "properties": {
         "Community Area Number": 75,
-        "Community": "Morgan Park",
+        "Community": "MORGAN PARK",
         "Percent of Housing Crowded": 0.8,
         "Percent Households Below Poverty": 13.2,
         "Percent Aged 16+ Unemployed": 15,
@@ -1722,8 +1722,8 @@
         "Percent Aged Under 18 or over 64": 40.3,
         "Per Capita Income": 27149,
         "Hardship Index": 30,
-        "latitude": 42.0160522,
-        "longitude": -87.8277817
+        "latitude": 41.6878,
+        "longitude": -87.669
       }
     },
     {
@@ -1737,7 +1737,7 @@
       },
       "properties": {
         "Community Area Number": 76,
-        "Community": "O'Hare",
+        "Community": "O'HARE",
         "Percent of Housing Crowded": 3.6,
         "Percent Households Below Poverty": 15.4,
         "Percent Aged 16+ Unemployed": 7.1,
@@ -1760,7 +1760,7 @@
       },
       "properties": {
         "Community Area Number": 77,
-        "Community": "Edgewater",
+        "Community": "EDGEWATER",
         "Percent of Housing Crowded": 4.1,
         "Percent Households Below Poverty": 18.2,
         "Percent Aged 16+ Unemployed": 9.2,
@@ -1783,7 +1783,7 @@
       },
       "properties": {
         "Community Area Number": 78,
-        "Community": "Chicago (City)",
+        "Community": "CHICAGO (CITY)",
         "Percent of Housing Crowded": 4.7,
         "Percent Households Below Poverty": 19.7,
         "Percent Aged 16+ Unemployed": 12.9,
