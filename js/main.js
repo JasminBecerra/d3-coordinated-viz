@@ -8,6 +8,6 @@ function setMap(){
     //use d3.queue to parallelize asynchronous data loading
     d3.queue()
         .defer(d3.csv, "data/ChicagoSocioEconData.csv") //load attributes from csv
-        .defer(d3.json, "data/ChicagoComm6P.topojson") //load background spatial data
+        .defer(d3.json, "data/ChicagoComm6P.topojson") //load spatial data for choropleth map
         .await(callback);
-};'
+};
