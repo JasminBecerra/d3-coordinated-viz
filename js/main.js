@@ -20,9 +20,9 @@ function setMap(){
     // try geo.albers or geoAlbers
     var projection = d3.geoAlbers()
         .center([0, 41.8])
-        .rotate([92, 0, 0])
+        .rotate([88, 0, 0])
         .parallels([41.79, 41.88])
-        .scale(5000.00)
+        .scale(12000.00)
         .translate([width / 2, height / 2]);
 
 	//create path generator for actualmap
