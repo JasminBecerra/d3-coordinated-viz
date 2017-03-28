@@ -37,6 +37,9 @@ function setMap(){
         .defer(d3.json, "data/ChicagoCommunities.topojson") //load spatial data for choropleth map
         .await(callback); //send data to callback function
 
+
+//still debugging this, something is off, and I've checked to make sure I have the correct
+//objects and properties names according to the topojson files
     function callback(error, csvData, illinois, chicago){
         //*ignore* graticule doesn't make much sense for the scale at which I'm mapping
         // //create graticule generator
