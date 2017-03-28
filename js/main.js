@@ -67,11 +67,11 @@ function setMap(){
             .attr("d", path);
 
 
-    	// // // check
-     //    console.log(error);
-     //    console.log(csvData);
-     //    console.log(illin);
-     //    console.log(chicago);
+    	// // check
+        console.log(error);
+        console.log(csvData);
+        console.log(illin);
+        console.log(chicago);
     };
 
 };
