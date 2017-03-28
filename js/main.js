@@ -19,10 +19,10 @@ function setMap(){
 	//create Albers equal area conic projection centered on Chicago (used the UW Cart demo)
     // try geo.albers or geoAlbers
     var projection = d3.geoAlbers()
-        .center([0, 41.8])
-        .rotate([88, 0, 0])
+        .center([0, 41.9])
+        .rotate([87.5, 0, 0])
         .parallels([41.79, 41.88])
-        .scale(12000.00)
+        .scale(55000.00)
         .translate([width / 2, height / 2]);
 
 	//create path generator for actualmap
@@ -70,7 +70,7 @@ function setMap(){
     	// // check
         console.log(error);
         console.log(csvData);
-        console.log(illin);
+        console.log(illinois);
         console.log(chicago);
     };
 

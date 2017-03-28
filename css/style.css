@@ -1,9 +1,15 @@
 /*style sheet for d3 lab*/
 
-.countries {
+.counties {
     fill: #e2e0e0;
     stroke: #CCC;
     stroke-width: 2px;
+}
+
+.communities {
+	stroke: #FFF;
+	fill: #B5C8C9;
+	stroke-width:.5px;
 }
 
 .actualmap {
