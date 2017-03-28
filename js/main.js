@@ -23,7 +23,7 @@ function setMap(){
         .rotate([92, 0, 0])
         .parallels([41.79, 41.88])
         .scale(5000.00)
-        .translate(width / 2, height / 2]);
+        .translate([width / 2, height / 2]);
 
 	//create path generator for actualmap
 	var path = d3.geoPath()
@@ -34,39 +34,41 @@ function setMap(){
     d3.queue()
         .defer(d3.csv, "data/ChicagoSocioEconData.csv") //load attributes from csv
         .defer(d3.json, "data/illinCounties2.topojson") //load bacground data (illinois counties)
-        .defer(d3.json, "data/ChicagoNeighborhoods2.topojson") //load spatial data for choropleth map
+        .defer(d3.json, "data/ChicagoCommunities.topojson") //load spatial data for choropleth map
         .await(callback); //send data to callback function
 
-    function callback(error, csvData, illin, chicago){
-        //create graticule generator
-        var graticule = d3.geoGraticule()
-            .step([5, 5]); //place graticule lines every 5 degrees of longitude and latitude
+    function callback(error, csvData, illinois, chicago){
+        //*ignore* graticule doesn't make much sense for the scale at which I'm mapping
+        // //create graticule generator
+        // var graticule = d3.geoGraticule()
+        //     .step([5, 5]); //place graticule lines every 5 degrees of longitude and latitude
 
     	//translate chicago comm areas to topojson
-    	var ilCounties = topojson.feature(illin, illin.objects.illinCounties2),
-            chicagoNeighborhoods1 = topojson.feature(chicago, chicago.objects.ChicagoNeighorhoods1).features;
+    	var illinCounties = topojson.feature(illinois, illinois.objects.illinCounties2),
+            chicagoCommunities = topojson.feature(chicago, chicago.objects.ChicagoCommunities).features;
         
         //ading the illinois counties to actualmap
         var counties = actualmap.append("path")
-            .datum(ilCounties)
+            .datum(illinCounties)
             .attr("class", "counties")
             .attr("d", path);
 
         //adding chicago community areas/neighborhoods to actualmap
         var communities = actualmap.selectAll(".communities")
-            .data(chicagoNeighborhoods1)
+            .data(chicagoCommunities)
             .enter()
             .append("path")
             .attr("class", function(d){
-                return d.properties.community;
+                return "communities " + d.properties.community;
             })
             .attr("d", path);
 
 
     	// // check
-     //    console.log(error);
-     //    console.log(csvData);
-     //    console.log(chicago);
+        console.log(error);
+        console.log(csvData);
+        console.log(illin);
+        console.log(chicago);
     };
 
 };

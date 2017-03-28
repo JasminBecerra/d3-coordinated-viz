@@ -1,4 +1,4 @@
-Community Area Number, Community, Percent of Housing Crowded, Percent Households Below Poverty, Percent Aged 16+ Unemployed, Percent Aged 25+ Without High School Diploma, Percent Aged Under 18 or over 64, Per Capita Income, Hardship Index,latitude,longitude
+CommunityAreaNumber, community, PercentofHousingCrowded, PercentHouseholds BelowPoverty, PercentAged16Unemployed, PercentAged25WithoutHighSchoolDiploma, PercentAgedUnder18orover64, PerCapitaIncome, HardshipIndex,latitude,longitude
 1,ROGERS PARK,7.7,23.6,8.7,18.2,27.5,23939,39,42.0106,-87.6696
 2, WEST RIDGE,7.8,17.2,8.8,20.8,38.5,23040,46,42.0006,-87.6926
 3, UPTOWN,3.8,24,8.9,11.8,22.2,35787,20,41.9665,-87.6533
