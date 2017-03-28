@@ -32,21 +32,32 @@ function setMap(){
     //use d3.queue to parallelize asynchronous data loading
     d3.queue()
         .defer(d3.csv, "data/ChicagoSocioEconData.csv") //load attributes from csv
-        .defer(d3.json, "data/chicagoNeighborhoods.topojson") //load spatial data for choropleth map
+        .defer(d3.json, "data/IllinCounties.topojson") //load bacground data
+        .defer(d3.json, "data/ChicagoNeighborhoods1.topojson") //load spatial data for choropleth map
         .await(callback); //send data to callback function
 
-    function callback(error, csvData, chicago){
+    function callback(error, csvData, illinois, chicago){
     	//translate chicago comm areas to topojson
-    	var chicagoNeighborhoods = topojson.feature(chicago, chicago.objects.chicagoNeighorhoods).features;
+    	var illinCounties = topojson.feature(illinois, illinois.objects.IllinoisCounties),
+            chicagoNeighborhoods = topojson.feature(chicago, chicago.objects.ChicagoNeighorhoods1).features;
         
-        var comms = actualmap.append("path")
-        	.data(chicagoNeighborhoods)
-        	.enter()
-        	.append("path")
-        	.attr("class", function(d){
-                return "regions " + d.properties.adm1_code;
+        //ading the illinois counties to actualmap
+        var counties = actualmap.append("path")
+            .datum(illinCounties)
+            .attr("class", "counties")
+            .attr("d", path);
+
+        //adding chicago community areas/neighborhoods to actualmap
+        var communities = actualmap.selectAll(".communities")
+            .data(ChicagoNeighborhoods1)
+            .enter()
+            .append("path")
+            .attr("class", function(d){
+                return "communties" + d.properties.adm1_code;
             })
             .attr("d", path);
+
+
     	// check
         console.log(error);
         console.log(csvData);
