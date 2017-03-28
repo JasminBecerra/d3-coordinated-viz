@@ -6,8 +6,8 @@ window.onload = setMap();
 //set up choropleth map
 function setMap(){
 	//actualmap dimensions (w = width, h = height)
-	var width = 960, 
-        height = 500;
+	var width = 800, 
+        height = 550;
 
 	//container for map
 	var actualmap = d3.select("body")
@@ -19,10 +19,10 @@ function setMap(){
 	//create Albers equal area conic projection centered on Chicago (used the UW Cart demo)
     // try geo.albers or geoAlbers
     var projection = d3.geoAlbers()
-        .center([0, 41.9])
-        .rotate([87.5, 0, 0])
+        .center([0, 41.83])
+        .rotate([87.7, 0, 0])
         .parallels([41.79, 41.88])
-        .scale(55000.00)
+        .scale(70000.00)
         .translate([width / 2, height / 2]);
 
 	//create path generator for actualmap
