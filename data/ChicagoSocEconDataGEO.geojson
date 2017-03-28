@@ -12,7 +12,7 @@
       },
       "properties": {
         "Community Area Number": 1,
-        "Community": "ROGERS PARK",
+        "community": "ROGERS PARK",
         "Percent of Housing Crowded": 7.7,
         "Percent Households Below Poverty": 23.6,
         "Percent Aged 16+ Unemployed": 8.7,
@@ -35,7 +35,7 @@
       },
       "properties": {
         "Community Area Number": 2,
-        "Community": "WEST RIDGE",
+        "community": "WEST RIDGE",
         "Percent of Housing Crowded": 7.8,
         "Percent Households Below Poverty": 17.2,
         "Percent Aged 16+ Unemployed": 8.8,
@@ -58,7 +58,7 @@
       },
       "properties": {
         "Community Area Number": 3,
-        "Community": "UPTOWN",
+        "community": "UPTOWN",
         "Percent of Housing Crowded": 3.8,
         "Percent Households Below Poverty": 24,
         "Percent Aged 16+ Unemployed": 8.9,
@@ -81,7 +81,7 @@
       },
       "properties": {
         "Community Area Number": 4,
-        "Community": "LINCOLN SQUARE",
+        "community": "LINCOLN SQUARE",
         "Percent of Housing Crowded": 3.4,
         "Percent Households Below Poverty": 10.9,
         "Percent Aged 16+ Unemployed": 8.2,
@@ -104,7 +104,7 @@
       },
       "properties": {
         "Community Area Number": 5,
-        "Community": "NORTH CENTER",
+        "community": "NORTH CENTER",
         "Percent of Housing Crowded": 0.3,
         "Percent Households Below Poverty": 7.5,
         "Percent Aged 16+ Unemployed": 5.2,
@@ -127,7 +127,7 @@
       },
       "properties": {
         "Community Area Number": 6,
-        "Community": "LAKE VIEW",
+        "community": "LAKE VIEW",
         "Percent of Housing Crowded": 1.1,
         "Percent Households Below Poverty": 11.4,
         "Percent Aged 16+ Unemployed": 4.7,
@@ -150,7 +150,7 @@
       },
       "properties": {
         "Community Area Number": 7,
-        "Community": "LINCOLN PARK",
+        "community": "LINCOLN PARK",
         "Percent of Housing Crowded": 0.8,
         "Percent Households Below Poverty": 12.3,
         "Percent Aged 16+ Unemployed": 5.1,
@@ -173,7 +173,7 @@
       },
       "properties": {
         "Community Area Number": 8,
-        "Community": "NEAR NORTH SIDE",
+        "community": "NEAR NORTH SIDE",
         "Percent of Housing Crowded": 1.9,
         "Percent Households Below Poverty": 12.9,
         "Percent Aged 16+ Unemployed": 7,
@@ -196,7 +196,7 @@
       },
       "properties": {
         "Community Area Number": 9,
-        "Community": "EDISON PARK",
+        "community": "EDISON PARK",
         "Percent of Housing Crowded": 1.1,
         "Percent Households Below Poverty": 3.3,
         "Percent Aged 16+ Unemployed": 6.5,
@@ -219,7 +219,7 @@
       },
       "properties": {
         "Community Area Number": 10,
-        "Community": "NORWOOD PARK",
+        "community": "NORWOOD PARK",
         "Percent of Housing Crowded": 2,
         "Percent Households Below Poverty": 5.4,
         "Percent Aged 16+ Unemployed": 9,
@@ -242,7 +242,7 @@
       },
       "properties": {
         "Community Area Number": 11,
-        "Community": "JEFFERSON PARK",
+        "community": "JEFFERSON PARK",
         "Percent of Housing Crowded": 2.7,
         "Percent Households Below Poverty": 8.6,
         "Percent Aged 16+ Unemployed": 12.4,
@@ -265,7 +265,7 @@
       },
       "properties": {
         "Community Area Number": 12,
-        "Community": "FOREST GLEN",
+        "community": "FOREST GLEN",
         "Percent of Housing Crowded": 1.1,
         "Percent Households Below Poverty": 7.5,
         "Percent Aged 16+ Unemployed": 6.8,
@@ -288,7 +288,7 @@
       },
       "properties": {
         "Community Area Number": 13,
-        "Community": "NORTH PARK",
+        "community": "NORTH PARK",
         "Percent of Housing Crowded": 3.9,
         "Percent Households Below Poverty": 13.2,
         "Percent Aged 16+ Unemployed": 9.9,
@@ -311,7 +311,7 @@
       },
       "properties": {
         "Community Area Number": 14,
-        "Community": "ALBANY PARK",
+        "community": "ALBANY PARK",
         "Percent of Housing Crowded": 11.3,
         "Percent Households Below Poverty": 19.2,
         "Percent Aged 16+ Unemployed": 10,
@@ -334,7 +334,7 @@
       },
       "properties": {
         "Community Area Number": 15,
-        "Community": "PORTAGE PARK",
+        "community": "PORTAGE PARK",
         "Percent of Housing Crowded": 4.1,
         "Percent Households Below Poverty": 11.6,
         "Percent Aged 16+ Unemployed": 12.6,
@@ -357,7 +357,7 @@
       },
       "properties": {
         "Community Area Number": 16,
-        "Community": "IRVING PARK",
+        "community": "IRVING PARK",
         "Percent of Housing Crowded": 6.3,
         "Percent Households Below Poverty": 13.1,
         "Percent Aged 16+ Unemployed": 10,
@@ -380,7 +380,7 @@
       },
       "properties": {
         "Community Area Number": 17,
-        "Community": "DUNNING",
+        "community": "DUNNING",
         "Percent of Housing Crowded": 5.2,
         "Percent Households Below Poverty": 10.6,
         "Percent Aged 16+ Unemployed": 10,
@@ -403,7 +403,7 @@
       },
       "properties": {
         "Community Area Number": 18,
-        "Community": "MONTCLAIRE",
+        "community": "MONTCLAIRE",
         "Percent of Housing Crowded": 8.1,
         "Percent Households Below Poverty": 15.3,
         "Percent Aged 16+ Unemployed": 13.8,
@@ -426,7 +426,7 @@
       },
       "properties": {
         "Community Area Number": 19,
-        "Community": "BELMONT CRAGIN",
+        "community": "BELMONT CRAGIN",
         "Percent of Housing Crowded": 10.8,
         "Percent Households Below Poverty": 18.7,
         "Percent Aged 16+ Unemployed": 14.6,
@@ -449,7 +449,7 @@
       },
       "properties": {
         "Community Area Number": 20,
-        "Community": "HERMOSA",
+        "community": "HERMOSA",
         "Percent of Housing Crowded": 6.9,
         "Percent Households Below Poverty": 20.5,
         "Percent Aged 16+ Unemployed": 13.1,
@@ -472,7 +472,7 @@
       },
       "properties": {
         "Community Area Number": 21,
-        "Community": "AVONDALE",
+        "community": "AVONDALE",
         "Percent of Housing Crowded": 6,
         "Percent Households Below Poverty": 15.3,
         "Percent Aged 16+ Unemployed": 9.2,
@@ -495,7 +495,7 @@
       },
       "properties": {
         "Community Area Number": 22,
-        "Community": "LOGAN SQUARE",
+        "community": "LOGAN SQUARE",
         "Percent of Housing Crowded": 3.2,
         "Percent Households Below Poverty": 16.8,
         "Percent Aged 16+ Unemployed": 8.2,
@@ -518,7 +518,7 @@
       },
       "properties": {
         "Community Area Number": 23,
-        "Community": "HUMBOLDT PARK",
+        "community": "HUMBOLDT PARK",
         "Percent of Housing Crowded": 14.8,
         "Percent Households Below Poverty": 33.9,
         "Percent Aged 16+ Unemployed": 17.3,
@@ -541,7 +541,7 @@
       },
       "properties": {
         "Community Area Number": 24,
-        "Community": "WEST TOWN",
+        "community": "WEST TOWN",
         "Percent of Housing Crowded": 2.3,
         "Percent Households Below Poverty": 14.7,
         "Percent Aged 16+ Unemployed": 6.6,
@@ -564,7 +564,7 @@
       },
       "properties": {
         "Community Area Number": 25,
-        "Community": "AUSTIN",
+        "community": "AUSTIN",
         "Percent of Housing Crowded": 6.3,
         "Percent Households Below Poverty": 28.6,
         "Percent Aged 16+ Unemployed": 22.6,
@@ -587,7 +587,7 @@
       },
       "properties": {
         "Community Area Number": 26,
-        "Community": "WEST GARFIELD PARK",
+        "community": "WEST GARFIELD PARK",
         "Percent of Housing Crowded": 9.4,
         "Percent Households Below Poverty": 41.7,
         "Percent Aged 16+ Unemployed": 25.8,
@@ -610,7 +610,7 @@
       },
       "properties": {
         "Community Area Number": 27,
-        "Community": "EAST GARFIELD PARK",
+        "community": "EAST GARFIELD PARK",
         "Percent of Housing Crowded": 8.2,
         "Percent Households Below Poverty": 42.4,
         "Percent Aged 16+ Unemployed": 19.6,
@@ -633,7 +633,7 @@
       },
       "properties": {
         "Community Area Number": 28,
-        "Community": "NEAR WEST SIDE",
+        "community": "NEAR WEST SIDE",
         "Percent of Housing Crowded": 3.8,
         "Percent Households Below Poverty": 20.6,
         "Percent Aged 16+ Unemployed": 10.7,
@@ -656,7 +656,7 @@
       },
       "properties": {
         "Community Area Number": 29,
-        "Community": "NORTH LAWNDALE",
+        "community": "NORTH LAWNDALE",
         "Percent of Housing Crowded": 7.4,
         "Percent Households Below Poverty": 43.1,
         "Percent Aged 16+ Unemployed": 21.2,
@@ -679,7 +679,7 @@
       },
       "properties": {
         "Community Area Number": 30,
-        "Community": "LITTLE VILLAGE",
+        "community": "LITTLE VILLAGE",
         "Percent of Housing Crowded": 15.2,
         "Percent Households Below Poverty": 30.7,
         "Percent Aged 16+ Unemployed": 15.8,
@@ -702,7 +702,7 @@
       },
       "properties": {
         "Community Area Number": 31,
-        "Community": "LOWER WEST SIDE",
+        "community": "LOWER WEST SIDE",
         "Percent of Housing Crowded": 9.6,
         "Percent Households Below Poverty": 25.8,
         "Percent Aged 16+ Unemployed": 15.8,
@@ -725,7 +725,7 @@
       },
       "properties": {
         "Community Area Number": 32,
-        "Community": "LOOP",
+        "community": "LOOP",
         "Percent of Housing Crowded": 1.5,
         "Percent Households Below Poverty": 14.7,
         "Percent Aged 16+ Unemployed": 5.7,
@@ -748,7 +748,7 @@
       },
       "properties": {
         "Community Area Number": 33,
-        "Community": "NEAR SOUTH SIDE",
+        "community": "NEAR SOUTH SIDE",
         "Percent of Housing Crowded": 1.3,
         "Percent Households Below Poverty": 13.8,
         "Percent Aged 16+ Unemployed": 4.9,
@@ -771,7 +771,7 @@
       },
       "properties": {
         "Community Area Number": 34,
-        "Community": "ARMOUR SQUARE",
+        "community": "ARMOUR SQUARE",
         "Percent of Housing Crowded": 5.7,
         "Percent Households Below Poverty": 40.1,
         "Percent Aged 16+ Unemployed": 16.7,
@@ -794,7 +794,7 @@
       },
       "properties": {
         "Community Area Number": 35,
-        "Community": "DOUGLAS",
+        "community": "DOUGLAS",
         "Percent of Housing Crowded": 1.8,
         "Percent Households Below Poverty": 29.6,
         "Percent Aged 16+ Unemployed": 18.2,
@@ -817,7 +817,7 @@
       },
       "properties": {
         "Community Area Number": 36,
-        "Community": "OAKLAND",
+        "community": "OAKLAND",
         "Percent of Housing Crowded": 1.3,
         "Percent Households Below Poverty": 39.7,
         "Percent Aged 16+ Unemployed": 28.7,
@@ -840,7 +840,7 @@
       },
       "properties": {
         "Community Area Number": 37,
-        "Community": "FULLER PARK",
+        "community": "FULLER PARK",
         "Percent of Housing Crowded": 3.2,
         "Percent Households Below Poverty": 51.2,
         "Percent Aged 16+ Unemployed": 33.9,
@@ -863,7 +863,7 @@
       },
       "properties": {
         "Community Area Number": 38,
-        "Community": "GRAND BOULEVARD",
+        "community": "GRAND BOULEVARD",
         "Percent of Housing Crowded": 3.3,
         "Percent Households Below Poverty": 29.3,
         "Percent Aged 16+ Unemployed": 24.3,
@@ -886,7 +886,7 @@
       },
       "properties": {
         "Community Area Number": 39,
-        "Community": "KENWOOD",
+        "community": "KENWOOD",
         "Percent of Housing Crowded": 2.4,
         "Percent Households Below Poverty": 21.7,
         "Percent Aged 16+ Unemployed": 15.7,
@@ -909,7 +909,7 @@
       },
       "properties": {
         "Community Area Number": 40,
-        "Community": "WASHINGTON PARK",
+        "community": "WASHINGTON PARK",
         "Percent of Housing Crowded": 5.6,
         "Percent Households Below Poverty": 42.1,
         "Percent Aged 16+ Unemployed": 28.6,
@@ -932,7 +932,7 @@
       },
       "properties": {
         "Community Area Number": 41,
-        "Community": "HYDE PARK",
+        "community": "HYDE PARK",
         "Percent of Housing Crowded": 1.5,
         "Percent Households Below Poverty": 18.4,
         "Percent Aged 16+ Unemployed": 8.4,
@@ -955,7 +955,7 @@
       },
       "properties": {
         "Community Area Number": 42,
-        "Community": "WOODLAWN",
+        "community": "WOODLAWN",
         "Percent of Housing Crowded": 2.9,
         "Percent Households Below Poverty": 30.7,
         "Percent Aged 16+ Unemployed": 23.4,
@@ -978,7 +978,7 @@
       },
       "properties": {
         "Community Area Number": 43,
-        "Community": "SOUTH SHORE",
+        "community": "SOUTH SHORE",
         "Percent of Housing Crowded": 2.8,
         "Percent Households Below Poverty": 31.1,
         "Percent Aged 16+ Unemployed": 20,
@@ -1001,7 +1001,7 @@
       },
       "properties": {
         "Community Area Number": 44,
-        "Community": "CHATHAM",
+        "community": "CHATHAM",
         "Percent of Housing Crowded": 3.3,
         "Percent Households Below Poverty": 27.8,
         "Percent Aged 16+ Unemployed": 24,
@@ -1024,7 +1024,7 @@
       },
       "properties": {
         "Community Area Number": 45,
-        "Community": "AVALON PARK",
+        "community": "AVALON PARK",
         "Percent of Housing Crowded": 1.4,
         "Percent Households Below Poverty": 17.2,
         "Percent Aged 16+ Unemployed": 21.1,
@@ -1047,7 +1047,7 @@
       },
       "properties": {
         "Community Area Number": 46,
-        "Community": "SOUTH CHICAGO",
+        "community": "SOUTH CHICAGO",
         "Percent of Housing Crowded": 4.7,
         "Percent Households Below Poverty": 29.8,
         "Percent Aged 16+ Unemployed": 19.7,
@@ -1070,7 +1070,7 @@
       },
       "properties": {
         "Community Area Number": 47,
-        "Community": "BURNSIDE",
+        "community": "BURNSIDE",
         "Percent of Housing Crowded": 6.8,
         "Percent Households Below Poverty": 33,
         "Percent Aged 16+ Unemployed": 18.6,
@@ -1093,7 +1093,7 @@
       },
       "properties": {
         "Community Area Number": 48,
-        "Community": "CALUMET HEIGHTS",
+        "community": "CALUMET HEIGHTS",
         "Percent of Housing Crowded": 2.1,
         "Percent Households Below Poverty": 11.5,
         "Percent Aged 16+ Unemployed": 20,
@@ -1116,7 +1116,7 @@
       },
       "properties": {
         "Community Area Number": 49,
-        "Community": "ROSELAND",
+        "community": "ROSELAND",
         "Percent of Housing Crowded": 2.5,
         "Percent Households Below Poverty": 19.8,
         "Percent Aged 16+ Unemployed": 20.3,
@@ -1139,7 +1139,7 @@
       },
       "properties": {
         "Community Area Number": 50,
-        "Community": "PULLMAN",
+        "community": "PULLMAN",
         "Percent of Housing Crowded": 1.5,
         "Percent Households Below Poverty": 21.6,
         "Percent Aged 16+ Unemployed": 22.8,
@@ -1162,7 +1162,7 @@
       },
       "properties": {
         "Community Area Number": 51,
-        "Community": "SOUTH DEERING",
+        "community": "SOUTH DEERING",
         "Percent of Housing Crowded": 4,
         "Percent Households Below Poverty": 29.2,
         "Percent Aged 16+ Unemployed": 16.3,
@@ -1185,7 +1185,7 @@
       },
       "properties": {
         "Community Area Number": 52,
-        "Community": "EAST SIDE",
+        "community": "EAST SIDE",
         "Percent of Housing Crowded": 6.8,
         "Percent Households Below Poverty": 19.2,
         "Percent Aged 16+ Unemployed": 12.1,
@@ -1208,7 +1208,7 @@
       },
       "properties": {
         "Community Area Number": 53,
-        "Community": "WEST PULLMAN",
+        "community": "WEST PULLMAN",
         "Percent of Housing Crowded": 3.3,
         "Percent Households Below Poverty": 25.9,
         "Percent Aged 16+ Unemployed": 19.4,
@@ -1231,7 +1231,7 @@
       },
       "properties": {
         "Community Area Number": 54,
-        "Community": "RIVERDALE",
+        "community": "RIVERDALE",
         "Percent of Housing Crowded": 5.8,
         "Percent Households Below Poverty": 56.5,
         "Percent Aged 16+ Unemployed": 34.6,
@@ -1254,7 +1254,7 @@
       },
       "properties": {
         "Community Area Number": 55,
-        "Community": "HEGEWISCH",
+        "community": "HEGEWISCH",
         "Percent of Housing Crowded": 3.3,
         "Percent Households Below Poverty": 17.1,
         "Percent Aged 16+ Unemployed": 9.6,
@@ -1277,7 +1277,7 @@
       },
       "properties": {
         "Community Area Number": 56,
-        "Community": "GARFIELD RIDGE",
+        "community": "GARFIELD RIDGE",
         "Percent of Housing Crowded": 2.6,
         "Percent Households Below Poverty": 8.8,
         "Percent Aged 16+ Unemployed": 11.3,
@@ -1300,7 +1300,7 @@
       },
       "properties": {
         "Community Area Number": 57,
-        "Community": "ARCHER HEIGHTS",
+        "community": "ARCHER HEIGHTS",
         "Percent of Housing Crowded": 8.5,
         "Percent Households Below Poverty": 14.1,
         "Percent Aged 16+ Unemployed": 16.5,
@@ -1323,7 +1323,7 @@
       },
       "properties": {
         "Community Area Number": 58,
-        "Community": "BRIGHTON PARK",
+        "community": "BRIGHTON PARK",
         "Percent of Housing Crowded": 14.4,
         "Percent Households Below Poverty": 23.6,
         "Percent Aged 16+ Unemployed": 13.9,
@@ -1346,7 +1346,7 @@
       },
       "properties": {
         "Community Area Number": 59,
-        "Community": "MCKINLEY PARK",
+        "community": "MCKINLEY PARK",
         "Percent of Housing Crowded": 7.2,
         "Percent Households Below Poverty": 18.7,
         "Percent Aged 16+ Unemployed": 13.4,
@@ -1369,7 +1369,7 @@
       },
       "properties": {
         "Community Area Number": 60,
-        "Community": "BRIDGEPORT",
+        "community": "BRIDGEPORT",
         "Percent of Housing Crowded": 4.5,
         "Percent Households Below Poverty": 18.9,
         "Percent Aged 16+ Unemployed": 13.7,
@@ -1392,7 +1392,7 @@
       },
       "properties": {
         "Community Area Number": 61,
-        "Community": "BACK OF THE YARDS",
+        "community": "BACK OF THE YARDS",
         "Percent of Housing Crowded": 11.9,
         "Percent Households Below Poverty": 29,
         "Percent Aged 16+ Unemployed": 23,
@@ -1415,7 +1415,7 @@
       },
       "properties": {
         "Community Area Number": 62,
-        "Community": "WEST ELSDON",
+        "community": "WEST ELSDON",
         "Percent of Housing Crowded": 11.1,
         "Percent Households Below Poverty": 15.6,
         "Percent Aged 16+ Unemployed": 16.7,
@@ -1438,7 +1438,7 @@
       },
       "properties": {
         "Community Area Number": 63,
-        "Community": "GAGE PARK",
+        "community": "GAGE PARK",
         "Percent of Housing Crowded": 15.8,
         "Percent Households Below Poverty": 23.4,
         "Percent Aged 16+ Unemployed": 18.2,
@@ -1461,7 +1461,7 @@
       },
       "properties": {
         "Community Area Number": 64,
-        "Community": "CLEARING",
+        "community": "CLEARING",
         "Percent of Housing Crowded": 2.7,
         "Percent Households Below Poverty": 8.9,
         "Percent Aged 16+ Unemployed": 9.5,
@@ -1484,7 +1484,7 @@
       },
       "properties": {
         "Community Area Number": 65,
-        "Community": "WEST LAWN",
+        "community": "WEST LAWN",
         "Percent of Housing Crowded": 5.8,
         "Percent Households Below Poverty": 14.9,
         "Percent Aged 16+ Unemployed": 9.6,
@@ -1507,7 +1507,7 @@
       },
       "properties": {
         "Community Area Number": 66,
-        "Community": "CHICAGO LAWN",
+        "community": "CHICAGO LAWN",
         "Percent of Housing Crowded": 7.6,
         "Percent Households Below Poverty": 27.9,
         "Percent Aged 16+ Unemployed": 17.1,
@@ -1530,7 +1530,7 @@
       },
       "properties": {
         "Community Area Number": 67,
-        "Community": "WEST ENGLEWOOD",
+        "community": "WEST ENGLEWOOD",
         "Percent of Housing Crowded": 4.8,
         "Percent Households Below Poverty": 34.4,
         "Percent Aged 16+ Unemployed": 35.9,
@@ -1553,7 +1553,7 @@
       },
       "properties": {
         "Community Area Number": 68,
-        "Community": "ENGLEWOOD",
+        "community": "ENGLEWOOD",
         "Percent of Housing Crowded": 3.8,
         "Percent Households Below Poverty": 46.6,
         "Percent Aged 16+ Unemployed": 28,
@@ -1576,7 +1576,7 @@
       },
       "properties": {
         "Community Area Number": 69,
-        "Community": "GREATER GRAND CROSSING",
+        "community": "GREATER GRAND CROSSING",
         "Percent of Housing Crowded": 3.6,
         "Percent Households Below Poverty": 29.6,
         "Percent Aged 16+ Unemployed": 23,
@@ -1599,7 +1599,7 @@
       },
       "properties": {
         "Community Area Number": 70,
-        "Community": "ASHBURN",
+        "community": "ASHBURN",
         "Percent of Housing Crowded": 4,
         "Percent Households Below Poverty": 10.4,
         "Percent Aged 16+ Unemployed": 11.7,
@@ -1622,7 +1622,7 @@
       },
       "properties": {
         "Community Area Number": 71,
-        "Community": "AUBURN GRESHAM",
+        "community": "AUBURN GRESHAM",
         "Percent of Housing Crowded": 4,
         "Percent Households Below Poverty": 27.6,
         "Percent Aged 16+ Unemployed": 28.3,
@@ -1645,7 +1645,7 @@
       },
       "properties": {
         "Community Area Number": 72,
-        "Community": "BEVERLY",
+        "community": "BEVERLY",
         "Percent of Housing Crowded": 0.9,
         "Percent Households Below Poverty": 5.1,
         "Percent Aged 16+ Unemployed": 8,
@@ -1668,7 +1668,7 @@
       },
       "properties": {
         "Community Area Number": 73,
-        "Community": "WASHINGTON HEIGHT",
+        "community": "WASHINGTON HEIGHT",
         "Percent of Housing Crowded": 1.1,
         "Percent Households Below Poverty": 16.9,
         "Percent Aged 16+ Unemployed": 20.8,
@@ -1691,7 +1691,7 @@
       },
       "properties": {
         "Community Area Number": 74,
-        "Community": "MOUNT GREENWOOD",
+        "community": "MOUNT GREENWOOD",
         "Percent of Housing Crowded": 1,
         "Percent Households Below Poverty": 3.4,
         "Percent Aged 16+ Unemployed": 8.7,
@@ -1714,7 +1714,7 @@
       },
       "properties": {
         "Community Area Number": 75,
-        "Community": "MORGAN PARK",
+        "community": "MORGAN PARK",
         "Percent of Housing Crowded": 0.8,
         "Percent Households Below Poverty": 13.2,
         "Percent Aged 16+ Unemployed": 15,
@@ -1737,7 +1737,7 @@
       },
       "properties": {
         "Community Area Number": 76,
-        "Community": "O'HARE",
+        "community": "O'HARE",
         "Percent of Housing Crowded": 3.6,
         "Percent Households Below Poverty": 15.4,
         "Percent Aged 16+ Unemployed": 7.1,
@@ -1760,7 +1760,7 @@
       },
       "properties": {
         "Community Area Number": 77,
-        "Community": "EDGEWATER",
+        "community": "EDGEWATER",
         "Percent of Housing Crowded": 4.1,
         "Percent Households Below Poverty": 18.2,
         "Percent Aged 16+ Unemployed": 9.2,
@@ -1783,7 +1783,7 @@
       },
       "properties": {
         "Community Area Number": 78,
-        "Community": "CHICAGO (CITY)",
+        "community": "CHICAGO (CITY)",
         "Percent of Housing Crowded": 4.7,
         "Percent Households Below Poverty": 19.7,
         "Percent Aged 16+ Unemployed": 12.9,

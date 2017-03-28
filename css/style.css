@@ -1,1 +1,8 @@
 /*style sheet for d3 lab*/
+
+.counties {
+    fill: #e2e0e0;
+    stroke: #CCC;
+    stroke-width: 2px;
+}
+
