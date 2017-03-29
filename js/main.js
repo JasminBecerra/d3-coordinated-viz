@@ -22,7 +22,7 @@ function setMap(){
         .center([0, 41.83])
         .rotate([87.7, 0, 0])
         .parallels([41.79, 41.88])
-        .scale(70000.00)
+        .scale(80000.00)
         .translate([width / 2, height / 2]);
 
 	//create path generator for actualmap
