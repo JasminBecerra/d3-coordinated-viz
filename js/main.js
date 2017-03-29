@@ -19,7 +19,7 @@ function setMap(){
 	//create Albers equal area conic projection centered on Chicago (used the UW Cart demo)
     // try geo.albers or geoAlbers
     var projection = d3.geoAlbers()
-        .center([0, 41.83])
+        .center([0, 41.835])
         .rotate([87.7, 0, 0])
         .parallels([41.79, 41.88])
         .scale(80000.00)
