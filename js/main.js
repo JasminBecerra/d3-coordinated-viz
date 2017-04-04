@@ -73,6 +73,9 @@ function setMap(){
         //add enumeration units to the map
         setEnumerationUnits(chicagoCommunities, actualmap, path);
 
+        //callback
+        makeColorScale(data);
+
                     // // check
         // console.log(error);
         console.log(csvData);
@@ -113,7 +116,7 @@ function joinData(chicagoCommunities, csvData){
 
 };
 
-function setEnumerationUnits(chicagoCommunities, actualmap, path){
+function setEnumerationUnits(chicagoCommunities, actualmap, path, colorScale){
         //adding chicago community areas/neighborhoods to actualmap
         var communities = actualmap.selectAll(".communities")
             .data(chicagoCommunities)
@@ -122,7 +125,10 @@ function setEnumerationUnits(chicagoCommunities, actualmap, path){
             .attr("class", function(d){
                 return "communities " + d.properties.community;
             })
-            .attr("d", path);
+            .attr("d", path)
+            .style("fill", function(d){
+            return makeColorScale(d.properties[expressed]);
+        });
 
 
 };
