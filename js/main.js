@@ -73,8 +73,8 @@ function setMap(){
         //add enumeration units to the map
         setEnumerationUnits(chicagoCommunities, actualmap, path);
 
-        //callback
-        makeColorScale(data);
+        // //callback
+        // makeColorScale(data);
 
                     // // check
         // console.log(error);
@@ -127,7 +127,7 @@ function setEnumerationUnits(chicagoCommunities, actualmap, path, colorScale){
             })
             .attr("d", path)
             .style("fill", function(d){
-            return makeColorScale(d.properties[expressed]);
+            return choropleth(d.properties, colorScale);
         });
 
 
@@ -169,6 +169,18 @@ function makeColorScale(data){
     colorScale.domain(domainArray);
 
     return colorScale;
+};
+
+//function to test for data value and return color (i was getting a "cannot generate mroe classes than..." error, hope this helps!)
+function choropleth(props, colorScale){
+    //make sure attribute value is a number
+    var val = parseFloat(props[expressed]);
+    //if attribute value exists, assign a color; otherwise assign gray
+    if (typeof val == 'number' && !isNaN(val)){
+        return colorScale(val);
+    } else {
+        return "#CCC";
+    };
 };
 
 
