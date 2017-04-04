@@ -59,33 +59,6 @@ function setMap(){
     	//translate chicago comm areas to topojson
     	var illinCounties = topojson.feature(illinois, illinois.objects.illinCounties3),
             chicagoCommunities = topojson.feature(chicago, chicago.objects.ChicagoCommunities).features;
-        
-            
-        //variables for data join (I had to revise the original csv file because there were some spaces before every entry, so it wouldn't join initially)
-        var attrArray = ["HardshipIndex", "PerCapitaIncome", "PercentAged16Unemployed", "PercentAged25WithoutHighSchoolDiploma", "PercentAgedUnder18orover64", "PercentHouseholdsBelowPoverty", "PercentofHousingCrowded"];
-
-        //loop through csv to assign each set of csv attribute values to geojson region
-        for (var i=0; i<csvData.length; i++){
-            var csvRegion = csvData[i]; //the current region
-            var csvKey = csvRegion.community; //the CSV primary key = community
-
-            //loop through geojson regions to find correct region
-            for (var a=0; a<chicagoCommunities.length; a++){
-
-                var geojsonProps = chicagoCommunities[a].properties; //the current region geojson properties
-                var geojsonKey = geojsonProps.community; //the geojson primary key
-
-                //where primary keys match, transfer csv data to geojson properties object
-                if (geojsonKey == csvKey){
-
-                    //assigning attributes and values
-                    attrArray.forEach(function(attr){
-                        var val = parseFloat(csvRegion[attr]); //get csv attribute value
-                        geojsonProps[attr] = val; //assign attribute and value to geojson properties
-                    });
-                };
-            };
-        };
 
 
         //ading the illinois counties to actualmap
@@ -94,7 +67,46 @@ function setMap(){
             .attr("class", "counties")
             .attr("d", path);
 
+        //join csv data to GeoJSON enumeration units
+        chicagoCommunities = joinData(chicagoCommunities, csvData);
 
+        //add enumeration units to the map
+        setEnumerationUnits(chicagoCommunities, actualmap, path);
+    };
+}; //end of setMap()
+
+
+function joinData(chicagoCommunties, csvData){
+    //variables for data join (I had to revise the original csv file because there were some spaces before every entry, so it wouldn't join initially)
+    var attrArray = ["HardshipIndex", "PerCapitaIncome", "PercentAged16Unemployed", "PercentAged25WithoutHighSchoolDiploma", "PercentAgedUnder18orover64", "PercentHouseholdsBelowPoverty", "PercentofHousingCrowded"];
+
+    //loop through csv to assign each set of csv attribute values to geojson region
+    for (var i=0; i<csvData.length; i++){
+        var csvRegion = csvData[i]; //the current region
+        var csvKey = csvRegion.community; //the CSV primary key = community
+
+        //loop through geojson regions to find correct region
+        for (var a=0; a<chicagoCommunities.length; a++){
+
+            var geojsonProps = chicagoCommunities[a].properties; //the current region geojson properties
+            var geojsonKey = geojsonProps.community; //the geojson primary key
+
+            //where primary keys match, transfer csv data to geojson properties object
+            if (geojsonKey == csvKey){
+
+                //assigning attributes and values
+                attrArray.forEach(function(attr){
+                    var val = parseFloat(csvRegion[attr]); //get csv attribute value
+                    geojsonProps[attr] = val; //assign attribute and value to geojson properties
+                });
+            };
+        };
+    };
+
+    return chicagoCommunities;
+};
+
+function setEnumerationUnits(chicagoCommunities, actualmap, path){
         //adding chicago community areas/neighborhoods to actualmap
         var communities = actualmap.selectAll(".communities")
             .data(chicagoCommunities)
@@ -106,13 +118,13 @@ function setMap(){
             .attr("d", path);
 
 
-    	// // check
+        // // check
         console.log(error);
         console.log(csvData);
         // console.log(illinois);
         console.log(chicago);
-    };
 
 };
+
 
 })(); //last line of main.js
