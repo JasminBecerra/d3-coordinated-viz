@@ -128,4 +128,42 @@ function setEnumerationUnits(chicagoCommunities, actualmap, path){
 };
 
 
+//func to create color scale gen
+function makeColorScale(data){
+    //colors for class breaks
+    var colorClasses = [
+        "#f6eff7",
+        "#bdc9e1",
+        "#67a9cf",
+        "#1c9099",
+        "#016c59"
+    ];
+
+    //create color scale gen
+    var colorScale = d3.scaleThreshold()
+        .range(colorClasses);
+
+    //build array of values (for the expressed attribute)
+    var domainArray = [];
+    for (var i=0; i<data.length; i++){
+        var val = parseFloat(data[i][expressed]);
+        domainArray.push(val);
+    };
+
+    //cluster data using ckmeans clustering algorithm to create jenks natural breaks
+    var clusters = ss.ckmeans(domainArray, 5);
+    //reset domain array to cluster mins
+    domainArray = clusters.map(function(d){
+        return d3.min(d);
+    });
+    //remove first value from domain array to create class breakpoints
+    domainArray.shift();
+
+    //assign array of last 4 cluster mins as domain
+    colorScale.domain(domainArray);
+
+    return colorScale;
+};
+
+
 })(); //last line of main.js
