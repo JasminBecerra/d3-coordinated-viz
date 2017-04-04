@@ -1,5 +1,15 @@
 // main js file
 
+
+//anonymous function to move variables to local scope
+(function(){
+
+//pseudo-global variables
+var attrArray = ["HardshipIndex", "PerCapitaIncome", "PercentAged16Unemployed", "PercentAged25WithoutHighSchoolDiploma", "PercentAgedUnder18orover64", "PercentHouseholdsBelowPoverty", "PercentofHousingCrowded"]; 
+//list of attributes up there
+var expressed = attrArray[0]; //initial attribute
+
+
 //begin script when window loads
 window.onload = setMap();
 
@@ -104,3 +114,5 @@ function setMap(){
     };
 
 };
+
+})(); //last line of main.js
