@@ -14,4 +14,9 @@
 
 .actualmap {
 	border: medium solid #55597C;
+	background-color: #e2e0e0;
+}
+
+.lakemich{
+	fill: #FFFFFF;
 }
