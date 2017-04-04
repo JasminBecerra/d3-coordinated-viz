@@ -72,11 +72,18 @@ function setMap(){
 
         //add enumeration units to the map
         setEnumerationUnits(chicagoCommunities, actualmap, path);
+
+                    // // check
+        // console.log(error);
+        console.log(csvData);
+        // console.log(illinois);
+        console.log(chicago);
     };
+
 }; //end of setMap()
 
 
-function joinData(chicagoCommunties, csvData){
+function joinData(chicagoCommunities, csvData){
     //variables for data join (I had to revise the original csv file because there were some spaces before every entry, so it wouldn't join initially)
     var attrArray = ["HardshipIndex", "PerCapitaIncome", "PercentAged16Unemployed", "PercentAged25WithoutHighSchoolDiploma", "PercentAgedUnder18orover64", "PercentHouseholdsBelowPoverty", "PercentofHousingCrowded"];
 
@@ -102,8 +109,8 @@ function joinData(chicagoCommunties, csvData){
             };
         };
     };
-
     return chicagoCommunities;
+
 };
 
 function setEnumerationUnits(chicagoCommunities, actualmap, path){
@@ -117,12 +124,6 @@ function setEnumerationUnits(chicagoCommunities, actualmap, path){
             })
             .attr("d", path);
 
-
-        // // check
-        console.log(error);
-        console.log(csvData);
-        // console.log(illinois);
-        console.log(chicago);
 
 };
 
