@@ -70,8 +70,12 @@ function setMap(){
         //join csv data to GeoJSON enumeration units
         chicagoCommunities = joinData(chicagoCommunities, csvData);
 
+        //for color scale
+        var colorScale = makeColorScale(csvData);
+
         //add enumeration units to the map
-        setEnumerationUnits(chicagoCommunities, actualmap, path);
+        setEnumerationUnits(chicagoCommunities, actualmap, path, colorScale);
+
 
         // //callback
         // makeColorScale(data);
@@ -123,12 +127,15 @@ function setEnumerationUnits(chicagoCommunities, actualmap, path, colorScale){
             .enter()
             .append("path")
             .attr("class", function(d){
-                return "communities " + d.properties.community;
+                return "communities " + d.properties.area_num_1;
             })
             .attr("d", path)
             .style("fill", function(d){
-            return choropleth(d.properties, colorScale);
+            return colorScale(d.properties[expressed]);
         });
+        //     .style("fill", function(d){
+        //     return choropleth(d.properties, colorScale);
+        // })
 
 
 };
@@ -171,17 +178,17 @@ function makeColorScale(data){
     return colorScale;
 };
 
-//function to test for data value and return color (i was getting a "cannot generate mroe classes than..." error, hope this helps!)
-function choropleth(props, colorScale){
-    //make sure attribute value is a number
-    var val = parseFloat(props[expressed]);
-    //if attribute value exists, assign a color; otherwise assign gray
-    if (typeof val == 'number' && !isNaN(val)){
-        return colorScale(val);
-    } else {
-        return "#CCC";
-    };
-};
+// //function to test for data value and return color (i was getting a "cannot generate mroe classes than..." error, hope this helps!)
+// function choropleth(props, colorScale){
+//     //make sure attribute value is a number
+//     var val = parseFloat(props[expressed]);
+//     //if attribute value exists, assign a color; otherwise assign gray
+//     if (typeof val == 'number' && !isNaN(val)){
+//         return colorScale(val);
+//     } else {
+//         return "#CCC";
+//     };
+// };
 
 
 })(); //last line of main.js
