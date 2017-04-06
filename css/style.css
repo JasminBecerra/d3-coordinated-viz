@@ -7,9 +7,10 @@
 }
 
 .communities {
-	stroke: #FFF;
+	stroke: #000;
 	fill: #B5C8C9;
-	stroke-width:.5px;
+	stroke-width:0.5px;
+	stroke-linecap: round;
 }
 
 .actualmap {
