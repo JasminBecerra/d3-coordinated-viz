@@ -97,13 +97,13 @@ function joinData(chicagoCommunities, csvData){
     //loop through csv to assign each set of csv attribute values to geojson region
     for (var i=0; i<csvData.length; i++){
         var csvRegion = csvData[i]; //the current region
-        var csvKey = csvRegion.community; //the CSV primary key = community
+        var csvKey = csvRegion.area_num_1; //the CSV primary key = community
 
         //loop through geojson regions to find correct region
         for (var a=0; a<chicagoCommunities.length; a++){
 
             var geojsonProps = chicagoCommunities[a].properties; //the current region geojson properties
-            var geojsonKey = geojsonProps.community; //the geojson primary key
+            var geojsonKey = geojsonProps.area_num_1; //the geojson primary key
 
             //where primary keys match, transfer csv data to geojson properties object
             if (geojsonKey == csvKey){
@@ -132,10 +132,10 @@ function setEnumerationUnits(chicagoCommunities, actualmap, path, colorScale){
             .attr("d", path)
             .style("fill", function(d){
             return colorScale(d.properties[expressed]);
+        })
+            .style("fill", function(d){
+            return choropleth(d.properties, colorScale);
         });
-        //     .style("fill", function(d){
-        //     return choropleth(d.properties, colorScale);
-        // })
 
 
 };
@@ -145,8 +145,8 @@ function setEnumerationUnits(chicagoCommunities, actualmap, path, colorScale){
 function makeColorScale(data){
     //colors for class breaks
     var colorClasses = [
-        "#f6eff7",
-        "#bdc9e1",
+        "#d0d1e6",
+        "#a6bddb",
         "#67a9cf",
         "#1c9099",
         "#016c59"
@@ -178,17 +178,17 @@ function makeColorScale(data){
     return colorScale;
 };
 
-// //function to test for data value and return color (i was getting a "cannot generate mroe classes than..." error, hope this helps!)
-// function choropleth(props, colorScale){
-//     //make sure attribute value is a number
-//     var val = parseFloat(props[expressed]);
-//     //if attribute value exists, assign a color; otherwise assign gray
-//     if (typeof val == 'number' && !isNaN(val)){
-//         return colorScale(val);
-//     } else {
-//         return "#CCC";
-//     };
-// };
+//function to test for data value and return color (i was getting a "cannot generate mroe classes than..." error, hope this helps!)
+function choropleth(props, colorScale){
+    //make sure attribute value is a number
+    var val = parseFloat(props[expressed]);
+    //if attribute value exists, assign a color; otherwise assign gray
+    if (typeof val == 'number' && !isNaN(val)){
+        return colorScale(val);
+    } else {
+        return "#CCC";
+    };
+};
 
 
 })(); //last line of main.js
