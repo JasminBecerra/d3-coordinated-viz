@@ -14,10 +14,19 @@
 }
 
 .actualmap {
-	border: medium solid #55597C;
+	border: medium solid #999;
 	background-color: #e2e0e0;
+	margin: 10px 0 0 20px;
 }
 
 .lakemich{
 	fill: #FFFFFF;
+}
+
+
+.bubblechart {
+    background-color: rgba(128,128,128,.2);
+    border: medium solid #999;
+    float: right;
+    margin: 10px 35px 0 0;
 }

@@ -16,7 +16,7 @@ window.onload = setMap();
 //set up choropleth map
 function setMap(){
 	//actualmap dimensions (w = width, h = height)
-	var width = 800, 
+	var width = 575, 
         height = 550;
 
 	//container for map
@@ -73,12 +73,12 @@ function setMap(){
         //for color scale
         var colorScale = makeColorScale(csvData);
 
-        //add enumeration units to the map
+        //add enumeration units to actualmap
         setEnumerationUnits(chicagoCommunities, actualmap, path, colorScale);
 
 
-        // //callback
-        // makeColorScale(data);
+        // add coord. vis bubble chart to actualmap
+        setBubbleChart(csvData, colorScale);
 
                     // // check
         // console.log(error);
@@ -188,6 +188,21 @@ function choropleth(props, colorScale){
     } else {
         return "#CCC";
     };
+};
+
+
+//function to create coordinated vis -- bubble chart
+function setBubbleChart(csvData, colorScale){
+    //chart frame dimensions
+    var chartWidth = window.innerWidth * 0.4,
+        chartHeight = 550;
+
+    //create a second svg element to hold the bar chart
+    var bubblechart = d3.select("body")
+        .append("svg")
+        .attr("width", chartWidth)
+        .attr("height", chartHeight)
+        .attr("class", "bubblechart");
 };
 
 
