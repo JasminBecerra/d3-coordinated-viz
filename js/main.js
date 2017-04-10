@@ -91,8 +91,8 @@ function setMap(){
 
 
 function joinData(chicagoCommunities, csvData){
-    //variables for data join (I had to revise the original csv file because there were some spaces before every entry, so it wouldn't join initially)
-    var attrArray = ["HardshipIndex", "PerCapitaIncome", "PercentAged16Unemployed", "PercentAged25WithoutHighSchoolDiploma", "PercentAgedUnder18orover64", "PercentHouseholdsBelowPoverty", "PercentofHousingCrowded"];
+    // //variables for data join (I had to revise the original csv file because there were some spaces before every entry, so it wouldn't join initially)
+    // var attrArray = ["HardshipIndex", "PerCapitaIncome", "PercentAged16Unemployed", "PercentAged25WithoutHighSchoolDiploma", "PercentAgedUnder18orover64", "PercentHouseholdsBelowPoverty", "PercentofHousingCrowded"];
 
     //loop through csv to assign each set of csv attribute values to geojson region
     for (var i=0; i<csvData.length; i++){
@@ -202,10 +202,13 @@ function setBubbleChart(csvData, colorScale){
         .append("svg")
         .attr("width", chartWidth)
         .attr("height", chartHeight)
-        .attr("class", "bubblechart");
+        .attr("class", "bubblechart")
+        .append("g");
 
 
-    var radiusScale = d3.scaleSqrt().domain([1, 77]).range([5, 25])
+    var radiusScale = d3.scaleLinear()
+        .range([0, 50])
+        .domain([0, 100]);
 
     //simulation for where circles should go + interact (moving them to the middle of chart)
     var simulation = d3.forceSimulation()
@@ -213,7 +216,7 @@ function setBubbleChart(csvData, colorScale){
         .force("y", d3.forceY(chartHeight/2).strength(0.05))
         //keep them from overlapping!
         .force("collide", d3.forceCollide(function(d){
-            return radiusScale(d[expressed])+2;
+            return radiusScale(parseFloat(d[expressed]))+2;
         }))
 
     var circles = bubblechart.selectAll(".circles")
@@ -233,6 +236,19 @@ function setBubbleChart(csvData, colorScale){
             console.log(d)
         });
 
+
+        //annotate bubbles
+    var labels = bubblechart.selectAll(".labels")
+        .data(csvData)
+        .enter()
+        .append("text")
+        .attr("class", "labels")
+        .attr("text-anchor", "middle")
+        .text(function(d){
+            return parseFloat(d[expressed]);
+        });
+        console.log(radiusScale);
+
     simulation.nodes(csvData)
         .on('tick', ticked);
 
@@ -245,6 +261,13 @@ function setBubbleChart(csvData, colorScale){
             .attr("cy", function(d){
                 return d.y
             })
+        labels
+            .attr("x", function(d){
+                return d.x;
+            })
+            .attr("y", function(d){
+                return d.y;
+            });
     }
 
 
@@ -256,21 +279,30 @@ function setBubbleChart(csvData, colorScale){
 
 
 
-    //annotate bubbles
-    var labels = circles.append("text")
-        .attr("x", function(d){
-            return d.x;
-        })
-        .attr("y", function(d){
-            return d.y +5;
-        })
-        .attr("text-anchor", "middle")
-        .attr("r", function(d){
-            return radiusScale(parseFloat(d[expressed]));
-        })
-        .text(function(d){
-            return d[expressed];
-        })
+    // //annotate bubbles
+    // var labels = bubblechart.selectAll(".labels")
+    //     .data(csvData)
+    //     .enter()
+    //     .append("text")
+    //     .attr("class", "labels")
+    //     .attr("text-anchor", "middle")
+    //     .text(function(d){
+    //         return radiusScale(d[expressed]);
+    //     });
+
+        // .attr("x", function(d){
+        //     return d.x;
+        // })
+        // .attr("y", function(d){
+        //     return d.y +5;
+        // })
+        // .attr("text-anchor", "middle")
+        // .attr("r", function(d){
+        //     return radiusScale(parseFloat(d[expressed]));
+        // })
+        // .text(function(d){
+        //     return d[expressed];
+        // })
 
 
 };
