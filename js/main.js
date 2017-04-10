@@ -191,10 +191,10 @@ function choropleth(props, colorScale){
 };
 
 
-//function to create coordinated vis -- bubble chart
+//function to create coordinated vis -- bubble chart (EDIT: going with the bar chart instead)
 function setBubbleChart(csvData, colorScale){
     //chart frame dimensions
-    var chartWidth = window.innerWidth * 0.4,
+    var chartWidth = window.innerWidth * 0.45,
         chartHeight = 550;
 
     //create a second svg element to hold the bar chart
@@ -203,6 +203,46 @@ function setBubbleChart(csvData, colorScale){
         .attr("width", chartWidth)
         .attr("height", chartHeight)
         .attr("class", "bubblechart");
+
+
+    var radiusScale = d3.scaleSqrt().domain([1, 77]).range([5, 25])
+
+    //simulation for where circles should go + interact (moving them to the middle of chart)
+    var simulation = d3.forceSimulation()
+        .force("x", d3.forceX(chartWidth /2).strength(0.05))
+        .force("y", d3.forceY(chartHeight/2).strength(0.05))
+        //keep them from overlapping!
+        .force("collide", d3.forceCollide(function(d){
+            return radiusScale(d.area_num_1)+4;
+        }))
+
+    var circles = bubblechart.selectAll(".circles")
+        .data(csvData)
+        .enter()
+        .append("circle")
+        .attr("class", circles)
+        .attr("r", function(d){
+            return radiusScale(d.area_num_1)
+        })
+        .attr("fill", "#a6bddb")
+        .on("click", function(d){
+            console.log(d)
+        });
+
+    simulation.nodes(csvData)
+        .on('tick', ticked);
+
+
+    function ticked(){
+        circles
+            .attr("cx", function(d){
+                return d.x
+            })
+            .attr("cy", function(d){
+                return d.y
+            })
+    }
+
 };
 
 
