@@ -194,7 +194,7 @@ function choropleth(props, colorScale){
 //function to create coordinated vis -- bubble chart (EDIT: going with the bar chart instead)
 function setBubbleChart(csvData, colorScale){
     //chart frame dimensions
-    var chartWidth = window.innerWidth * 0.4,
+    var chartWidth = window.innerWidth * 0.45,
         chartHeight = 550;
 
     //create a second svg element to hold the bar chart
@@ -207,7 +207,7 @@ function setBubbleChart(csvData, colorScale){
 
     //scale the radius for each circle
     var radiusScale = d3.scaleSqrt()
-        .range([0, 40])
+        .range([5, 45])
         .domain([0, chartHeight/2]);
 
     //simulation for where circles should go + interact (moving them to the middle of chart)
@@ -236,6 +236,8 @@ function setBubbleChart(csvData, colorScale){
             return choropleth(d, colorScale);
             //use color scale from choropleth for bubbles
         })
+        .attr('stroke', '#000')
+        .attr('stroke-width', '0.5px')
         .on("click", function(d){
             console.log(d)
         });
@@ -252,7 +254,7 @@ function setBubbleChart(csvData, colorScale){
             return parseFloat(d[expressed]);
         });
         console.log(radiusScale);
-        
+
     //pushes bubbles
     simulation.nodes(csvData)
         .on('tick', ticked);
@@ -264,14 +266,14 @@ function setBubbleChart(csvData, colorScale){
                 return d.x
             })
             .attr("cy", function(d){
-                return d.y
+                return d.y + 15;
             })
         labels
             .attr("x", function(d){
                 return d.x;
             })
             .attr("y", function(d){
-                return d.y;
+                return d.y + 15;
             });
     }
 
