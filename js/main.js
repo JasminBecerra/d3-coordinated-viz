@@ -205,7 +205,7 @@ function setBubbleChart(csvData, colorScale){
         .attr("class", "bubblechart")
         .append("g");
 
-
+    //scale the radius for each circle
     var radiusScale = d3.scaleSqrt()
         .range([0, 40])
         .domain([0, chartHeight/2]);
@@ -252,11 +252,12 @@ function setBubbleChart(csvData, colorScale){
             return parseFloat(d[expressed]);
         });
         console.log(radiusScale);
-
+        
+    //pushes bubbles
     simulation.nodes(csvData)
         .on('tick', ticked);
 
-
+    //pushes the bubbles and labels away from the top left corner and to the center
     function ticked(){
         circles
             .attr("cx", function(d){
