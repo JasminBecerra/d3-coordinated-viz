@@ -10,6 +10,7 @@ var attrArray = ["HardshipIndex", "PerCapitaIncome", "PercentAged16Unemployed", 
 var expressed = attrArray[0]; //initial attribute
 
 
+
 //begin script when window loads
 window.onload = setMap();
 
@@ -17,7 +18,7 @@ window.onload = setMap();
 function setMap(){
 	//actualmap dimensions (w = width, h = height)
 	var width = 575, 
-        height = 550;
+        height = 590;
 
 	//container for map
 	var actualmap = d3.select("body")
@@ -73,8 +74,11 @@ function setMap(){
         //for color scale
         var colorScale = makeColorScale(csvData);
 
+
         //add enumeration units to actualmap
         setEnumerationUnits(chicagoCommunities, actualmap, path, colorScale);
+
+        createDropdown(csvData);
 
 
         // add coord. vis bubble chart to actualmap
@@ -89,6 +93,50 @@ function setMap(){
 
 }; //end of setMap()
 
+//function to create a dropdown menu for attr selection
+function createDropdown(){
+    //add select element
+    var dropdown = d3.select("body")
+        .append("select")
+        .attr("class", "dropdown");
+
+    //add initial option
+    var titleOption = dropdown.append("option")
+        .attr("class", "titleOption")
+        .attr("disabled", "true")
+        .text("Select Attribute")
+        .on("change", function(){
+            changeAttribute(this.value, csvData)
+        });
+
+    //add attribute name options
+    var attrOptions = dropdown.selectAll("attrOptions")
+        .data(attrArray)
+        .enter()
+        .append("option")
+        .attr("value", function(d){ return d })
+        .text(function(d){ return d });
+
+    // console.log(attrOptions);
+};
+
+//dropdown change listener handler
+function changeAttribute(attribute, csvData){
+    //change the expressed attribute
+    expressed = attribute;
+    //check
+    console.log(expressed);
+
+    //recreate the color scale
+    var colorScale = makeColorScale(csvData);
+
+    //recolor enumeration units
+    var chicagoCommunities = d3.selectAll(".chicagoCommunities")
+        .style("fill", function(d){
+            
+            return choropleth(d.properties, colorScale)
+        });
+};
 
 function joinData(chicagoCommunities, csvData){
     // //variables for data join (I had to revise the original csv file because there were some spaces before every entry, so it wouldn't join initially)
@@ -195,7 +243,7 @@ function choropleth(props, colorScale){
 function setBubbleChart(csvData, colorScale){
     //chart frame dimensions
     var chartWidth = window.innerWidth * 0.45,
-        chartHeight = 550;
+        chartHeight = 590;
 
     //create a second svg element to hold the bar chart
     var bubblechart = d3.select("body")
@@ -216,7 +264,7 @@ function setBubbleChart(csvData, colorScale){
         .force("y", d3.forceY(chartHeight/2).strength(0.05))
         //keep them from overlapping!
         .force("collide", d3.forceCollide(function(d){
-            return radiusScale(parseFloat(d[expressed]))+2;
+            return radiusScale(parseFloat(d[expressed]))+1;
         }))
 
     //create the circles for bubble chart
@@ -253,7 +301,8 @@ function setBubbleChart(csvData, colorScale){
         .text(function(d){
             return parseFloat(d[expressed]);
         });
-        console.log(radiusScale);
+        // Check to see if radius was scaled
+        // console.log(radiusScale);
 
     //pushes bubbles
     simulation.nodes(csvData)
@@ -266,14 +315,14 @@ function setBubbleChart(csvData, colorScale){
                 return d.x
             })
             .attr("cy", function(d){
-                return d.y + 15;
+                return d.y;
             })
         labels
             .attr("x", function(d){
                 return d.x;
             })
             .attr("y", function(d){
-                return d.y + 15;
+                return d.y;
             });
     }
 
@@ -311,9 +360,7 @@ function setBubbleChart(csvData, colorScale){
         //     return d[expressed];
         // })
 
-
 };
-
 
 
 })(); //last line of main.js
