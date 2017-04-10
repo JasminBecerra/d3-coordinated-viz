@@ -194,7 +194,7 @@ function choropleth(props, colorScale){
 //function to create coordinated vis -- bubble chart (EDIT: going with the bar chart instead)
 function setBubbleChart(csvData, colorScale){
     //chart frame dimensions
-    var chartWidth = window.innerWidth * 0.45,
+    var chartWidth = window.innerWidth * 0.4,
         chartHeight = 550;
 
     //create a second svg element to hold the bar chart
@@ -213,16 +213,18 @@ function setBubbleChart(csvData, colorScale){
         .force("y", d3.forceY(chartHeight/2).strength(0.05))
         //keep them from overlapping!
         .force("collide", d3.forceCollide(function(d){
-            return radiusScale(d.HardshipIndex)+2;
+            return radiusScale(d[expressed])+2;
         }))
 
     var circles = bubblechart.selectAll(".circles")
         .data(csvData)
         .enter()
         .append("circle")
-        .attr("class", circles)
+        .attr("class", function(d){
+            return "circle " + d.area_num_1;
+        })
         .attr("r", function(d){
-            return radiusScale(d.HardshipIndex)
+            return radiusScale(parseFloat(d[expressed]));
         })
         .style("fill", function(d){
             return choropleth(d, colorScale);
@@ -245,7 +247,34 @@ function setBubbleChart(csvData, colorScale){
             })
     }
 
+
+    var bubblechartTitle = bubblechart.append("text")
+        .attr("x", 20)
+        .attr("y", 40)
+        .attr("class", "bubblechartTitle")
+        .text(expressed + " in each community");
+
+
+
+    //annotate bubbles
+    var labels = circles.append("text")
+        .attr("x", function(d){
+            return d.x;
+        })
+        .attr("y", function(d){
+            return d.y +5;
+        })
+        .attr("text-anchor", "middle")
+        .attr("r", function(d){
+            return radiusScale(parseFloat(d[expressed]));
+        })
+        .text(function(d){
+            return d[expressed];
+        })
+
+
 };
+
 
 
 })(); //last line of main.js
