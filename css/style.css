@@ -31,11 +31,12 @@
     margin: 10px 35px 0 0;
 }
 
-/*.numbers {
+.labels {
     fill: white;
     font-family: sans-serif;
+    font-size: .6em;
 }
-*/
+
 .bubblechartTitle{
     font-family: sans-serif;
     font-size: 1.2em;

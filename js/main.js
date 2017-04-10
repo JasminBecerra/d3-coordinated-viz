@@ -206,9 +206,9 @@ function setBubbleChart(csvData, colorScale){
         .append("g");
 
 
-    var radiusScale = d3.scaleLinear()
-        .range([0, 50])
-        .domain([0, 100]);
+    var radiusScale = d3.scaleSqrt()
+        .range([0, 40])
+        .domain([0, chartHeight/2]);
 
     //simulation for where circles should go + interact (moving them to the middle of chart)
     var simulation = d3.forceSimulation()
@@ -219,18 +219,22 @@ function setBubbleChart(csvData, colorScale){
             return radiusScale(parseFloat(d[expressed]))+2;
         }))
 
+    //create the circles for bubble chart
     var circles = bubblechart.selectAll(".circles")
         .data(csvData)
         .enter()
         .append("circle")
         .attr("class", function(d){
             return "circle " + d.area_num_1;
+            //so that each circle can be identified by its community number
         })
         .attr("r", function(d){
             return radiusScale(parseFloat(d[expressed]));
+            //uses attribute value to scale the radius of ea. circle
         })
         .style("fill", function(d){
             return choropleth(d, colorScale);
+            //use color scale from choropleth for bubbles
         })
         .on("click", function(d){
             console.log(d)
