@@ -213,7 +213,7 @@ function setBubbleChart(csvData, colorScale){
         .force("y", d3.forceY(chartHeight/2).strength(0.05))
         //keep them from overlapping!
         .force("collide", d3.forceCollide(function(d){
-            return radiusScale(d.area_num_1)+4;
+            return radiusScale(d.HardshipIndex)+2;
         }))
 
     var circles = bubblechart.selectAll(".circles")
@@ -222,9 +222,11 @@ function setBubbleChart(csvData, colorScale){
         .append("circle")
         .attr("class", circles)
         .attr("r", function(d){
-            return radiusScale(d.area_num_1)
+            return radiusScale(d.HardshipIndex)
         })
-        .attr("fill", "#a6bddb")
+        .style("fill", function(d){
+            return choropleth(d, colorScale);
+        })
         .on("click", function(d){
             console.log(d)
         });
