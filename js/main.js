@@ -171,7 +171,13 @@ function setEnumerationUnits(chicagoCommunities, actualmap, path, colorScale){
             })
             .on("mouseover", function(d){
                 highlight(d.properties);
+            })
+            .on("mouseout", function(d){
+            dehighlight(d.properties);
             });
+
+        var desc = communities.append("desc")
+            .text('{"stroke": "#000", "stroke-width": "0.5px"}');
 
 
 };
@@ -272,7 +278,11 @@ function setChart(csvData, colorScale){
             return "bar " + d.community.replace(/ /g, '_');
         })
         .attr("width", chartInnerWidth / csvData.length - 1)
-        .on("mouseover", highlight);
+        .on("mouseover", highlight)
+        .on("mouseout", dehighlight);
+
+        var desc = bars.append("desc")
+            .text('{"stroke": "none", "stroke-width": "0px"}');
 
         // .attr("x", function(d, i){
         //     return i * (chartInnerWidth / csvData.length) + leftPadding;
@@ -506,8 +516,31 @@ function highlight(props){
         .style("stroke-width", "2");
 
 
-        // //check highlight
-        console.log(props);
+
+        // // //check highlight
+        // console.log(props);
+};
+
+//to dehighlight the map and bar elements
+function dehighlight(props){
+    var selected = d3.selectAll("." + props.community.replace(/ /g, '_'))
+        .style("stroke", function(){
+            return getStyle(this, "stroke")
+        })
+        .style("stroke-width", function(){
+            return getStyle(this, "stroke-width")
+        });
+
+    function getStyle(element, styleName){
+        var styleText = d3.select(element)
+            .select("desc")
+            .text();
+
+        var styleObject = JSON.parse(styleText);
+
+        return styleObject[styleName];
+    };
+
 };
 
 
