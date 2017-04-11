@@ -384,6 +384,7 @@ function createDropdown(csvData){
 
     // console.log(attrOptions);
 };
+//^
 
 //dropdown change listener handler
 function changeAttribute(attribute, csvData){
