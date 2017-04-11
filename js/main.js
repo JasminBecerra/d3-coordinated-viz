@@ -10,6 +10,21 @@ var attrArray = ["HardshipIndex", "PerCapitaIncome", "PercentAged16Unemployed", 
 var expressed = attrArray[0]; //initial attribute
 
 
+// //chart frame dimensions
+var chartWidth = window.innerWidth * 0.425,
+    chartHeight = 590;
+//     leftPadding = 25,
+//     rightPadding = 2,
+//     topBottomPadding = 5,
+//     chartInnerWidth = chartWidth - leftPadding - rightPadding,
+//     chartInnerHeight = chartHeight - topBottomPadding * 2,
+//     translate = "translate(" + leftPadding + "," + topBottomPadding + ")";
+
+
+//scale the radius for each circle NOW A GLOBAL VARIABLE
+var radiusScale = d3.scaleSqrt()
+    .range([5, 45])
+    .domain([0, chartHeight/2]);
 
 //begin script when window loads
 window.onload = setMap();
@@ -83,6 +98,8 @@ function setMap(){
 
         // add coord. vis bubble chart to actualmap
         setBubbleChart(csvData, colorScale);
+
+
 
                     // // check
         // console.log(error);
@@ -240,8 +257,80 @@ function changeAttribute(attribute, csvData){
 
             return choropleth(d.properties, colorScale)
         });
+
+    //re-sort, resize, and recolor bars
+    var circles = d3.selectAll(".circles")
+        // // re-sort bars
+        // .sort(function(a, b){
+        //     return b[expressed] - a[expressed];
+        // })
+        .attr("r", function(d){
+            return radiusScale(parseFloat(d[expressed]));
+            //uses attribute value to scale the radius of ea. circle
+        })
+        .style("fill", function(d){
+            return choropleth(d, colorScale);
+            //use color scale from choropleth for bubbles
+        })
+        .attr('stroke', '#000')
+        .attr('stroke-width', '0.5px')
+        .on("click", function(d){
+            console.log(d[expressed])
+        });
+
+    updateChart(circles, csvData.length, colorScale);
 };
 
+
+//function to position, size, and color bars in chart
+function updateChart(circles, n, colorScale){
+    
+    // //simulation for where circles should go + interact (moving them to the middle of chart)
+    // var simulation = d3.forceSimulation()
+    //     .force("x", d3.forceX(chartWidth /2).strength(0.05))
+    //     .force("y", d3.forceY(chartHeight/2).strength(0.05))
+    //     //keep them from overlapping!
+    //     .force("collide", d3.forceCollide(function(d){
+    //         return radiusScale(parseFloat(d[expressed]))+4;
+    //     }));
+
+    // var circles = bubblechart.selectAll(".circles")
+    //     .data(csvData)
+    //     .enter()
+    //     .attr("r", function(d){
+    //         return radiusScale(parseFloat(d[expressed]));
+    //         //uses attribute value to scale the radius of ea. circle
+    //     })
+    //     .style("fill", function(d){
+    //         return choropleth(d, colorScale);
+    //         //use color scale from choropleth for bubbles
+    //     })
+    //     .attr('stroke', '#000')
+    //     .attr('stroke-width', '0.5px')
+    //     .on("click", function(d){
+    //         console.log(d)
+    //     });
+
+
+    //resize circles
+    circles.attr("r", function(d, i){
+            return radiusScale(parseFloat(d[expressed]));
+            //uses attribute value to scale the radius of ea. circle
+        })
+        .style("fill", function(d){
+            return choropleth(d, colorScale);
+            //use color scale from choropleth for bubbles
+        })
+        .attr('stroke', '#000')
+        .attr('stroke-width', '0.5px')
+        .on("click", function(d){
+            console.log(d[expressed])
+        });
+
+        //at the bottom of updateChart()...add text to chart title
+    var chartTitle = d3.select(".chartTitle")
+        .text("Number of Variable " + expressed[3] + " in each region");
+};
 
 
 //function to create coordinated vis -- bubble chart (EDIT: going with the bar chart instead)
@@ -269,7 +358,7 @@ function setBubbleChart(csvData, colorScale){
         .force("y", d3.forceY(chartHeight/2).strength(0.05))
         //keep them from overlapping!
         .force("collide", d3.forceCollide(function(d){
-            return radiusScale(parseFloat(d[expressed]))+1;
+            return radiusScale(parseFloat(d[expressed]))+4;
         }))
 
     //create the circles for bubble chart
@@ -338,31 +427,8 @@ function setBubbleChart(csvData, colorScale){
         .text(expressed + " in each community");
 
 
+    updateChart(circles, csvData.length, colorScale);
 
-    // //annotate bubbles
-    // var labels = bubblechart.selectAll(".labels")
-    //     .data(csvData)
-    //     .enter()
-    //     .append("text")
-    //     .attr("class", "labels")
-    //     .attr("text-anchor", "middle")
-    //     .text(function(d){
-    //         return radiusScale(d[expressed]);
-    //     });
-
-        // .attr("x", function(d){
-        //     return d.x;
-        // })
-        // .attr("y", function(d){
-        //     return d.y +5;
-        // })
-        // .attr("text-anchor", "middle")
-        // .attr("r", function(d){
-        //     return radiusScale(parseFloat(d[expressed]));
-        // })
-        // .text(function(d){
-        //     return d[expressed];
-        // })
 
 };
 
