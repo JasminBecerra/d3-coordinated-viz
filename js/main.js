@@ -93,50 +93,6 @@ function setMap(){
 
 }; //end of setMap()
 
-//function to create a dropdown menu for attr selection
-function createDropdown(){
-    //add select element
-    var dropdown = d3.select("body")
-        .append("select")
-        .attr("class", "dropdown");
-
-    //add initial option
-    var titleOption = dropdown.append("option")
-        .attr("class", "titleOption")
-        .attr("disabled", "true")
-        .text("Select Attribute")
-        .on("change", function(){
-            changeAttribute(this.value, csvData)
-        });
-
-    //add attribute name options
-    var attrOptions = dropdown.selectAll("attrOptions")
-        .data(attrArray)
-        .enter()
-        .append("option")
-        .attr("value", function(d){ return d })
-        .text(function(d){ return d });
-
-    // console.log(attrOptions);
-};
-
-//dropdown change listener handler
-function changeAttribute(attribute, csvData){
-    //change the expressed attribute
-    expressed = attribute;
-    //check
-    console.log(expressed);
-
-    //recreate the color scale
-    var colorScale = makeColorScale(csvData);
-
-    //recolor enumeration units
-    var chicagoCommunities = d3.selectAll(".chicagoCommunities")
-        .style("fill", function(d){
-            
-            return choropleth(d.properties, colorScale)
-        });
-};
 
 function joinData(chicagoCommunities, csvData){
     // //variables for data join (I had to revise the original csv file because there were some spaces before every entry, so it wouldn't join initially)
@@ -239,6 +195,55 @@ function choropleth(props, colorScale){
 };
 
 
+
+//function to create a dropdown menu for attr selection
+function createDropdown(csvData){
+    //add select element
+    var dropdown = d3.select("body")
+        .append("select")
+        .attr("class", "dropdown")
+        .on("change", function(){
+            changeAttribute(this.value, csvData);
+        });
+
+
+    //add initial option
+    var titleOption = dropdown.append("option")
+        .attr("class", "titleOption")
+        .attr("disabled", "true")
+        .text("Select Attribute");
+
+    //add attribute name options
+    var attrOptions = dropdown.selectAll("attrOptions")
+        .data(attrArray)
+        .enter()
+        .append("option")
+        .attr("value", function(d){ return d })
+        .text(function(d){ return d });
+
+    // console.log(attrOptions);
+};
+
+//dropdown change listener handler
+function changeAttribute(attribute, csvData){
+    //change the expressed attribute
+    expressed = attribute;
+    //check
+    // console.log(expressed);
+
+    //recreate the color scale
+    var colorScale = makeColorScale(csvData);
+
+    //recolor enumeration units
+    var communities = d3.selectAll(".communities")
+        .style("fill", function(d){
+
+            return choropleth(d.properties, colorScale)
+        });
+};
+
+
+
 //function to create coordinated vis -- bubble chart (EDIT: going with the bar chart instead)
 function setBubbleChart(csvData, colorScale){
     //chart frame dimensions
@@ -302,7 +307,7 @@ function setBubbleChart(csvData, colorScale){
             return parseFloat(d[expressed]);
         });
         // Check to see if radius was scaled
-        // console.log(radiusScale);
+        console.log(radiusScale);
 
     //pushes bubbles
     simulation.nodes(csvData)
@@ -325,7 +330,6 @@ function setBubbleChart(csvData, colorScale){
                 return d.y;
             });
     }
-
 
     var bubblechartTitle = bubblechart.append("text")
         .attr("x", 20)
