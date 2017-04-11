@@ -5,7 +5,9 @@
 (function(){
 
 //pseudo-global variables
-var attrArray = ["HardshipIndex", "PerCapitaIncome", "PercentAged16Unemployed", "PercentAged25WithoutHighSchoolDiploma", "PercentAgedUnder18orover64", "PercentHouseholdsBelowPoverty", "PercentofHousingCrowded"]; 
+var attrArray = ["HardshipIndex", "PercentAged16Unemployed", "PercentAged25WithoutHighSchoolDiploma", "PercentAgedUnder18orover64", "PercentHouseholdsBelowPoverty", "PercentofHousingCrowded"]; 
+//removed "PerCapitaIncome",  between hardship index and unemployment, need to figure out how to change axis later
+
 //list of attributes up there
 var expressed = attrArray[0]; //initial attribute
 
@@ -83,6 +85,7 @@ function setMap(){
             chicagoCommunities = topojson.feature(chicago, chicago.objects.ChicagoCommunities).features;
 
 
+
         //ading the illinois counties to actualmap
         var counties = actualmap.append("path")
             .datum(illinCounties)
@@ -122,16 +125,18 @@ function joinData(chicagoCommunities, csvData){
     // //variables for data join (I had to revise the original csv file because there were some spaces before every entry, so it wouldn't join initially)
     // var attrArray = ["HardshipIndex", "PerCapitaIncome", "PercentAged16Unemployed", "PercentAged25WithoutHighSchoolDiploma", "PercentAgedUnder18orover64", "PercentHouseholdsBelowPoverty", "PercentofHousingCrowded"];
 
+
+
     //loop through csv to assign each set of csv attribute values to geojson region
     for (var i=0; i<csvData.length; i++){
         var csvRegion = csvData[i]; //the current region
-        var csvKey = csvRegion.area_num_1; //the CSV primary key = community
+        var csvKey = csvRegion.community.replace(/ /g, '_'); //the CSV primary key = community
 
         //loop through geojson regions to find correct region
         for (var a=0; a<chicagoCommunities.length; a++){
 
             var geojsonProps = chicagoCommunities[a].properties; //the current region geojson properties
-            var geojsonKey = geojsonProps.area_num_1; //the geojson primary key
+            var geojsonKey = geojsonProps.community.replace(/ /g, '_'); //the geojson primary key
 
             //where primary keys match, transfer csv data to geojson properties object
             if (geojsonKey == csvKey){
@@ -155,15 +160,18 @@ function setEnumerationUnits(chicagoCommunities, actualmap, path, colorScale){
             .enter()
             .append("path")
             .attr("class", function(d){
-                return "communities " + d.properties.area_num_1;
+                return "communities " + d.properties.community.replace(/ /g, '_');
             })
             .attr("d", path)
+        //     .style("fill", function(d){
+        //     return colorScale(d.properties[expressed]);
+        // })
             .style("fill", function(d){
-            return colorScale(d.properties[expressed]);
-        })
-            .style("fill", function(d){
-            return choropleth(d.properties, colorScale);
-        });
+                return choropleth(d.properties, colorScale);
+            })
+            .on("mouseover", function(d){
+                highlight(d.properties);
+            });
 
 
 };
@@ -261,9 +269,11 @@ function setChart(csvData, colorScale){
             //sorts from tallest to shortest/ largest to smallest
         })
         .attr("class", function(d){
-            return "bar " + d.area_num_1;
+            return "bar " + d.community.replace(/ /g, '_');
         })
         .attr("width", chartInnerWidth / csvData.length - 1)
+        .on("mouseover", highlight);
+
         // .attr("x", function(d, i){
         //     return i * (chartInnerWidth / csvData.length) + leftPadding;
         // })
@@ -353,7 +363,7 @@ function updateChart(bars, n, colorScale){
     });
 
     var chartTitle = d3.select(".chartTitle")
-        .text(expressed + " in each Chicago community");
+        .text(expressed + " in each Chicago Community");
 };
 
 
@@ -398,6 +408,8 @@ function changeAttribute(attribute, csvData){
 
     //recolor enumeration units
     var communities = d3.selectAll(".communities")
+        .transition()
+        .duration(1000)
         .style("fill", function(d){
 
             return choropleth(d.properties, colorScale)
@@ -409,7 +421,13 @@ function changeAttribute(attribute, csvData){
         //sorting
         .sort(function(a, b){
             return b[expressed] - a[expressed];
-        });
+        })
+        //adds the transition animation
+        .transition()
+        .delay(function(d, i){
+            return i * 20
+        })
+        .duration(500);
 
     //call updateChart function
     updateChart(bars, csvData.length, colorScale);
@@ -477,6 +495,20 @@ function changeAttribute(attribute, csvData){
 
 };
 //end of changeAttribute function
+
+
+//function to highlight chicago neighborhoods and bars
+function highlight(props){
+    // var name = props.area_num_1
+    //change stroke
+    var selected = d3.selectAll("." + props.community.replace(/ /g, '_'))
+        .style("stroke", "yellow")
+        .style("stroke-width", "2");
+
+
+        // //check highlight
+        console.log(props);
+};
 
 
 
