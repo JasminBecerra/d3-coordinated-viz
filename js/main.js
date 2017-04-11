@@ -177,7 +177,8 @@ function setEnumerationUnits(chicagoCommunities, actualmap, path, colorScale){
             //closes out the highlight
             .on("mouseout", function(d){
             dehighlight(d.properties);
-            });
+            })
+            .on("mousemove", moveLabel);
 
         var desc = communities.append("desc")
             .text('{"stroke": "#000", "stroke-width": "0.5px"}');
@@ -282,7 +283,8 @@ function setChart(csvData, colorScale){
         })
         .attr("width", chartInnerWidth / csvData.length - 1)
         .on("mouseover", highlight)
-        .on("mouseout", dehighlight);
+        .on("mouseout", dehighlight)
+        .on("mousemove", moveLabel);
 
         var desc = bars.append("desc")
             .text('{"stroke": "none", "stroke-width": "0px"}');
@@ -555,7 +557,8 @@ function dehighlight(props){
 function setLabel(props){
     //label content
     var labelAttribute = "<h1>" + props[expressed] +
-        "</h1><b>" + expressed + "</b>";
+        "</h1><b>" + props.community + "</b>";
+        //changed so that label includes neighborhood name.
 
     //create info label div
     var infolabel = d3.select("body")
@@ -567,6 +570,35 @@ function setLabel(props){
     var regionName = infolabel.append("div")
         .attr("class", "labelname")
         .html(props.name);
+};
+
+//function to move info label with mouse
+function moveLabel(){
+
+    // get the label width
+    var labelWidth = d3.select(".infolabel")
+        .node()
+        .getBoundingClientRect()
+        .width;
+
+    //user coords of moving mouse event to set label coords
+    var x1 = d3.event.clientX +10,
+        y1 = d3.event.clientY -75,
+        x2 = d3.event.clientX - labelWidth -10,
+        y2 = d3.event.clientY +25;
+
+    // //use coordinates of mousemove event to set label coordinates
+    // var x = d3.event.clientX + 10,
+    //     y = d3.event.clientY - 75;
+
+    //horiz. label coord, overflow testing
+    var x = d3.event.clientX > window.innerWidth - labelWidth -20 ? x2 : x1;
+    //vert label coord, overflow testing
+    var y = d3.event.clientY <75 ? y2 : y1;
+
+    d3.select(".infolabel")
+        .style("left", x + "px")
+        .style("top", y + "px");
 };
 
 

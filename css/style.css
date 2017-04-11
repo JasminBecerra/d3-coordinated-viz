@@ -115,9 +115,13 @@ option {
     height: 50px;
     min-width: 100px;
     color: #fff;
+    font-size: .85em;
+    font-weight: bold;
+    font-family: sans-serif;
     background-color: #000;
     border: solid thin #fff;
     padding: 5px 10px;
+    top: -75px;
 }
 
 .infolabel h1 {
