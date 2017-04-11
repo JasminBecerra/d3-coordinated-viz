@@ -1,5 +1,13 @@
 // main js file
 
+//NOTE ABOUT D3 LAB:
+// I really wanted to implement an interactive bubble chart isntead of the bar graph,
+// but I ran into a few problems in resizing/updating the bubbles, so I made a last-minute decision to 
+// go forth with the bar chart instead of the bubble chart.
+// After final submission of Lab, I will come back to figure out the bubble chart!
+// because I think the bubbles would be a neat coordinate vis element.
+
+
 
 //anonymous function to move variables to local scope
 (function(){
@@ -285,6 +293,7 @@ function setChart(csvData, colorScale){
         .on("mouseover", highlight)
         .on("mouseout", dehighlight)
         .on("mousemove", moveLabel);
+            //listner events
 
         var desc = bars.append("desc")
             .text('{"stroke": "none", "stroke-width": "0px"}');
@@ -421,7 +430,7 @@ function changeAttribute(attribute, csvData){
     //recreate the color scale
     var colorScale = makeColorScale(csvData);
 
-    //recolor enumeration units
+    //recolor neighborhoods by natural breaks choropleth color scale
     var communities = d3.selectAll(".communities")
         .transition()
         .duration(1000)
@@ -433,7 +442,7 @@ function changeAttribute(attribute, csvData){
 
     //resize, re-sort,and recolor the bars in graph
     var bars = d3.selectAll(".bar")
-        //sorting
+        //sorting (from largest to smallest)
         .sort(function(a, b){
             return b[expressed] - a[expressed];
         })
@@ -506,7 +515,7 @@ function changeAttribute(attribute, csvData){
     //     .on("click", function(d){
     //         console.log(d[expressed])
     //     });
-    
+
 
 };
 //end of changeAttribute function
@@ -547,13 +556,13 @@ function dehighlight(props){
         return styleObject[styleName];
     };
 
-    //remove info label
+    //remove info label when you dehighlight/move your mouse away
     d3.select(".infolabel")
         .remove();
 
 };
 
-//function to create dynamic label
+//function for dynamic labels
 function setLabel(props){
     //label content
     var labelAttribute = "<h1>" + props[expressed] +
@@ -565,6 +574,8 @@ function setLabel(props){
         .append("div")
         .attr("class", "infolabel")
         .attr("id", props.community.replace(/ /g, '_') + "_label")
+        //again, using neighborhood name instead, since I think that's defintely 
+        //more of a desired attribute for the user
         .html(labelAttribute);
 
     var regionName = infolabel.append("div")
@@ -596,6 +607,8 @@ function moveLabel(){
     //vert label coord, overflow testing
     var y = d3.event.clientY <75 ? y2 : y1;
 
+
+    //subs in the x and y values from above
     d3.select(".infolabel")
         .style("left", x + "px")
         .style("top", y + "px");
