@@ -33,7 +33,7 @@ window.onload = setMap();
 //set up choropleth map
 function setMap(){
     //map frame dimensions
-    var width = window.innerWidth * 0.42,
+    var width = window.innerWidth * 0.38,
         height = 590;
 
 	//container for map
@@ -47,7 +47,7 @@ function setMap(){
     // try geo.albers or geoAlbers
     var projection = d3.geoAlbers()
         .center([0, 41.835])
-        .rotate([87.7, 0, 0])
+        .rotate([87.75, 0, 0])
         .parallels([41.79, 41.88])
         .scale(80000.00)
         .translate([width / 2, height / 2]);
@@ -312,11 +312,11 @@ function changeAttribute(attribute, csvData){
 //function to create coordinated vis -- bubble chart (EDIT: going with the bar chart instead)
 function setChart(csvData, colorScale){
     //chart dimensions
-    var chartWidth = window.innerWidth * 0.53,
+    var chartWidth = window.innerWidth * 0.56,
         chartHeight = 590;
-        leftPadding = 2,
+        leftPadding = 25,
         rightPadding = 2,
-        topBottomPadding = 2,
+        topBottomPadding = 3,
         chartInnerWidth = chartWidth - leftPadding - rightPadding,
         chartInnerHeight = chartHeight - topBottomPadding * 2,
         translate = "translate(" + leftPadding + "," + topBottomPadding + ")";
@@ -338,8 +338,8 @@ function setChart(csvData, colorScale){
 
     //create scale to size bars proportionally to frame
     var yScale = d3.scaleLinear()
-        .range([0, chartHeight])
-        .domain([0, 105]);
+        .range([590, 0])
+        .domain([0, 100]);
 
     //set bars for each chicago neighborhood/community
     var bars = chart.selectAll(".bars")
@@ -353,9 +353,9 @@ function setChart(csvData, colorScale){
         .attr("class", function(d){
             return "bars " + d.area_num_1;
         })
-        .attr("width", chartWidth / csvData.length - 1)
+        .attr("width", chartInnerWidth / csvData.length - 1)
         .attr("x", function(d, i){
-            return i * (chartWidth / csvData.length);
+            return i * (chartInnerWidth / csvData.length) + leftPadding;
         })
         .attr("height", function(d, i){
             return 590 - yScale(parseFloat(d[expressed]));
@@ -393,26 +393,28 @@ function setChart(csvData, colorScale){
 
     //text element for bar graph/chart title
     var chartTitle = chart.append("text")
-        .attr("x", 20)
+        .attr("x", 70)
         .attr("y", 40)
         .attr("class", "chartTitle")
-        .text( expressed + " in each community");
+        .text(expressed + " in each Chicago Community");
 
     //vertical axis
     var yAxis = d3.axisLeft()
         .scale(yScale);
 
-    //place the veritcal axis
+    //place vertical axis
     var axis = chart.append("g")
         .attr("class", "axis")
         .attr("transform", translate)
         .call(yAxis);
 
+    //create frame for the chart
     var chartFrame = chart.append("rect")
         .attr("class", "chartFrame")
         .attr("width", chartInnerWidth)
-        .attr("height", chartInnerHeight)
+        .attr("height", chartHeight)
         .attr("transform", translate);
+
 
 };
 
