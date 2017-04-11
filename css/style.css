@@ -10,6 +10,10 @@ p{
     font-family: sans-serif;
 }
 
+body{
+    background-color: #F9C88F;
+}
+
 .counties {
     fill: #e2e0e0;
     stroke: #CCC;
@@ -102,7 +106,7 @@ p{
 
 .dropdown {
     position: absolute;
-    top: 130px;
+    top: 135px;
     left: 32px;
     z-index: 10;
     font-family: sans-serif;
@@ -122,13 +126,13 @@ option {
 
 .infolabel {
     position: absolute;
-    height: 50px;
+    height: 30px;
     min-width: 100px;
     color: #fff;
-    font-size: .85em;
+    font-size: .8em;
     font-weight: bold;
     font-family: sans-serif;
-    background-color: #000;
+    background-color: #F9AA4B;
     border: solid thin #fff;
     padding: 5px 10px;
     top: -75px;

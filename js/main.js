@@ -388,8 +388,6 @@ function createDropdown(csvData){
     var dropdown = d3.select("body")
         .append("select")
         .attr("class", "dropdown")
-        .attr("x", 10)
-        .attr("y", 10)
         .on("change", function(){
             changeAttribute(this.value, csvData);
         });
@@ -508,7 +506,7 @@ function changeAttribute(attribute, csvData){
     //     .on("click", function(d){
     //         console.log(d[expressed])
     //     });
-
+    
 
 };
 //end of changeAttribute function
@@ -519,8 +517,8 @@ function highlight(props){
     // var name = props.area_num_1
     //change stroke
     var selected = d3.selectAll("." + props.community.replace(/ /g, '_'))
-        .style("stroke", "yellow")
-        .style("stroke-width", "2");
+        .style("stroke", "#F9AA4B")
+        .style("stroke-width", "2.5");
 
     setLabel(props);
 
