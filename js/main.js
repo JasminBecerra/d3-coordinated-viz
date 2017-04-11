@@ -131,6 +131,7 @@ function joinData(chicagoCommunities, csvData){
     for (var i=0; i<csvData.length; i++){
         var csvRegion = csvData[i]; //the current region
         var csvKey = csvRegion.community.replace(/ /g, '_'); //the CSV primary key = community
+        // *****for every occurence of the "community" key, all spaces between individual key names must be replaced!!!!!
 
         //loop through geojson regions to find correct region
         for (var a=0; a<chicagoCommunities.length; a++){
@@ -169,9 +170,11 @@ function setEnumerationUnits(chicagoCommunities, actualmap, path, colorScale){
             .style("fill", function(d){
                 return choropleth(d.properties, colorScale);
             })
+            //highlights when you mouse over a community or bar
             .on("mouseover", function(d){
                 highlight(d.properties);
             })
+            //closes out the highlight
             .on("mouseout", function(d){
             dehighlight(d.properties);
             });
@@ -515,6 +518,7 @@ function highlight(props){
         .style("stroke", "yellow")
         .style("stroke-width", "2");
 
+    setLabel(props);
 
 
         // // //check highlight
@@ -530,7 +534,7 @@ function dehighlight(props){
         .style("stroke-width", function(){
             return getStyle(this, "stroke-width")
         });
-
+    //selects all the neighborhoods selected
     function getStyle(element, styleName){
         var styleText = d3.select(element)
             .select("desc")
@@ -541,6 +545,28 @@ function dehighlight(props){
         return styleObject[styleName];
     };
 
+    //remove info label
+    d3.select(".infolabel")
+        .remove();
+
+};
+
+//function to create dynamic label
+function setLabel(props){
+    //label content
+    var labelAttribute = "<h1>" + props[expressed] +
+        "</h1><b>" + expressed + "</b>";
+
+    //create info label div
+    var infolabel = d3.select("body")
+        .append("div")
+        .attr("class", "infolabel")
+        .attr("id", props.community.replace(/ /g, '_') + "_label")
+        .html(labelAttribute);
+
+    var regionName = infolabel.append("div")
+        .attr("class", "labelname")
+        .html(props.name);
 };
 
 
