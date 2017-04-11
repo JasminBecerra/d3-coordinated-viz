@@ -388,6 +388,8 @@ function createDropdown(csvData){
     var dropdown = d3.select("body")
         .append("select")
         .attr("class", "dropdown")
+        .attr("x", 10)
+        .attr("y", 10)
         .on("change", function(){
             changeAttribute(this.value, csvData);
         });
